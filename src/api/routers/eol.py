@@ -14,8 +14,8 @@ from sqlalchemy.orm import Session
 from sqlalchemy import text
 from typing import List, Optional, Dict, Any
 
-from api.dependencies import get_db
-from api.models.asset import EOLUpcomingResponse
+from src.api.dependencies import get_db
+from src.api.models.asset import EOLUpcomingResponse
 
 router = APIRouter(prefix="/eol", tags=["End of Life"])
 

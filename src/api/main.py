@@ -14,7 +14,7 @@ Project: Device Asset Intelligence Platform
 """
 
 from fastapi import FastAPI
-from api.routers import assets, eol, financials, pipeline
+from src.api.routers import assets, eol, financials, pipeline
 
 app = FastAPI(
     title       = "Device Asset Intelligence Platform",

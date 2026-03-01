@@ -2,7 +2,7 @@
 extract.py
 ----------
 Extracts raw device data from AWS S3 and saves it locally
-to the staged folder for transformation.
+to the staging folder for transformation.
 
 Author: Dr. Miguel Rodriguez Saldana
 Project: Device Asset Intelligence Platform
@@ -59,15 +59,15 @@ def extract_devices_from_s3() -> pd.DataFrame:
 
 def save_to_staged(df: pd.DataFrame) -> str:
     """
-    Save extracted DataFrame to local staged folder.
+    Save extracted DataFrame to local staging folder.
     This is the input for transform.py.
     """
-    staged_dir  = os.path.join("data", "staged", "assets")
+    staged_dir  = os.path.join("data", "staging", "assets")
     os.makedirs(staged_dir, exist_ok=True)
     staged_path = os.path.join(staged_dir, "devices_staged.csv")
 
     df.to_csv(staged_path, index=False)
-    print(f"💾 Saved to staged → {staged_path}")
+    print(f"💾 Saved to staging → {staged_path}")
 
     return staged_path
 

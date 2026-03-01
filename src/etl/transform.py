@@ -1,7 +1,7 @@
 """
 transform.py
 ------------
-Transforms staged device data by cleaning, validating,
+Transforms staging device data by cleaning, validating,
 and enriching with calculated business fields.
 
 Key transformations:
@@ -273,9 +273,9 @@ def run_transform() -> pd.DataFrame:
     print("  ETL Phase 2 — Transform")
     print("=" * 55)
 
-    # Read from staged
+    # Read from staging
     staged_path = os.path.join(
-        "data", "staged", "assets", "devices_staged.csv"
+        "data", "staging", "assets", "devices_staged.csv"
     )
 
     if not os.path.exists(staged_path):
@@ -284,7 +284,7 @@ def run_transform() -> pd.DataFrame:
             f"Please run extract.py first."
         )
 
-    print(f"  📂 Reading from staged: {staged_path}")
+    print(f"  📂 Reading from staging: {staged_path}")
     df = pd.read_csv(staged_path)
     print(f"  ✅ Loaded {len(df)} records")
 

@@ -14,7 +14,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy import text
 from typing import List, Dict, Any
 
-from api.dependencies import get_db
+from src.api.dependencies import get_db
 
 router = APIRouter(prefix="/financials", tags=["Financials"])
 

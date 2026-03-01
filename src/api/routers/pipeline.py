@@ -15,8 +15,8 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from sqlalchemy import text
 
-from api.dependencies import get_db
-from api.models.asset import PipelineResponse
+from src.api.dependencies import get_db
+from src.api.models.asset import PipelineResponse
 
 router = APIRouter(prefix="/pipeline", tags=["Pipeline"])
 
@@ -32,9 +32,9 @@ def run_pipeline(db: Session = Depends(get_db)) -> PipelineResponse:
 
     try:
         # Import inside function so FastAPI can start even if ETL modules aren't needed at startup
-        from etl.extract import run_extract
-        from etl.transform import run_transform
-        from etl.load import run_load
+        from src.etl.extract import run_extract
+        from src.etl.transform import run_transform
+        from src.etl.load import run_load
 
         run_extract()
         run_transform()

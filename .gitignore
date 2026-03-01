@@ -17,12 +17,12 @@ __pycache__/
 
 # ── Data lake folders (ignore actual data files) ─────
 data/raw/*
-data/staged/*
+data/staging/*
 data/warehouse/*
 
 # ── Keep folder structure in GitHub ──────────────────
 !data/raw/.gitkeep
-!data/staged/.gitkeep
+!data/staging/.gitkeep
 !data/warehouse/.gitkeep
 
 # ── AWS credentials ───────────────────────────────────
