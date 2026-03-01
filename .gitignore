@@ -1,0 +1,33 @@
+# ── Virtual environment ──────────────────────────────
+venv/
+.venv/
+
+# ── PyCharm IDE settings ─────────────────────────────
+.idea/
+
+# ── Environment variables (credentials) ─────────────
+# NEVER commit .env - it contains your AWS keys
+.env
+
+# ── Python cache ─────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ── Data lake folders (ignore actual data files) ─────
+data/raw/*
+data/staged/*
+data/warehouse/*
+
+# ── Keep folder structure in GitHub ──────────────────
+!data/raw/.gitkeep
+!data/staged/.gitkeep
+!data/warehouse/.gitkeep
+
+# ── AWS credentials ───────────────────────────────────
+.aws/
+
+# ── OS files ─────────────────────────────────────────
+.DS_Store
+Thumbs.db
