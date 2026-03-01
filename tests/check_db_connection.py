@@ -17,7 +17,7 @@ def test_connection():
         )
         assert conn is not None
         conn.close()
-        
+
         print("✅ Connection successful!")
         conn.close()
 
