@@ -1,0 +1,501 @@
+asset_tag,serial_number,device_type,make,model,department,assigned_user,location,status,purchase_date,purchase_cost,useful_life_years,end_of_life_date,days_to_eol,eol_risk_tier,current_book_value,replacement_budget_flag
+BDA-00001,TA58-8318-FPO8,Laptop,Dell,PowerEdge R750,Revenue Cycle,Tonya Walsh,Dallas Campus,Active,2021-07-09,2052.0,4,2025-07-08,-236,Critical,0.0,True
+BDA-00002,VK99-7466-OVN2,Laptop,Microsoft,Surface Pro 9,IT Operations,Benjamin Orr,Arlington HQ,Active,2023-05-21,1195.52,4,2027-05-20,445,Healthy,364.96,False
+BDA-00003,XK85-6881-XZU7,Laptop,Microsoft,Surface Pro 9,Business Intelligence,Donna Wilkins,Dallas Campus,Active,2025-12-28,1272.92,4,2029-12-27,1397,Healthy,1218.03,False
+BDA-00004,AC70-1417-NDE8,Laptop,HP,ProLiant DL380,Business Intelligence,Kelly Carter,Fort Worth Campus,Active,2024-07-06,1166.03,4,2028-07-05,857,Healthy,684.77,False
+BDA-00005,HR40-9875-RJO6,Server,Dell,Latitude 5540,Business Intelligence,Sylvia Savage,Arlington HQ,Active,2024-02-29,6095.6,6,2030-02-27,1459,Healthy,4062.34,False
+BDA-00006,WA43-9247-MVE7,Server,Dell,PowerEdge R750,Supply Chain,Travis Flores,Data Center,Active,2023-04-01,11300.66,6,2029-03-30,1125,Healthy,5808.9,False
+BDA-00007,SC61-4484-NFT2,Laptop,Microsoft,Surface Pro 9,Cybersecurity,Denise Casey,Data Center,Active,2021-12-23,918.24,4,2025-12-22,-69,Critical,0.0,True
+BDA-00008,HB26-9727-QPE2,Desktop,HP,EliteBook 840,Clinical Informatics,Anita Schultz,Arlington HQ,Active,2021-03-24,1144.09,5,2026-03-23,22,Critical,14.57,True
+BDA-00009,SD93-9577-ADL0,Server,Dell,OptiPlex 7090,Cybersecurity,David Carpenter,Dallas Campus,Active,2021-11-27,9316.38,6,2027-11-26,635,Healthy,2705.85,False
+BDA-00010,KM46-5649-PIB7,Laptop,Microsoft,Surface Pro 9,Clinical Informatics,Tamara Greene,Dallas Campus,Active,2021-05-12,1258.91,4,2025-05-11,-294,Critical,0.0,True
+BDA-00011,EZ74-2615-POZ4,Desktop,Lenovo,ThinkCentre M90,IT Operations,Jose Payne,Dallas Campus,Active,2022-04-17,1566.05,5,2027-04-16,411,Healthy,353.51,False
+BDA-00012,CO03-2004-KCC9,Mobile,Samsung,Galaxy S24,Clinical Informatics,Robert Bradshaw,Data Center,Active,2026-02-27,651.74,3,2029-02-26,1093,Healthy,650.55,False
+BDA-00013,IM72-2811-XIO5,Mobile,Samsung,Galaxy S24,Human Resources,Carlos Wilson,Fort Worth Campus,Active,2020-04-27,995.99,3,2023-04-27,-1039,Critical,0.0,True
+BDA-00014,LK68-8720-ASH8,Server,IBM,System x3650,Business Intelligence,Kimberly Butler,Fort Worth Campus,Active,2021-06-24,11977.84,6,2027-06-23,479,Healthy,2626.22,False
+BDA-00015,LQ18-5228-YAG1,Mobile,Apple,MacBook Pro 14,Finance,Patricia Schroeder,Dallas Campus,Active,2022-08-06,1033.66,3,2025-08-05,-208,Critical,0.0,True
+BDA-00016,TO25-7645-JYO1,Mobile,Google,Pixel 8,Business Intelligence,Anthony Norman,Remote,Active,2021-08-11,774.44,3,2024-08-10,-568,Critical,0.0,True
+BDA-00017,HS27-2400-EKE2,Server,IBM,System x3650,Finance,Jessica Butler,Data Center,Active,2021-06-01,9917.39,6,2027-05-31,456,Healthy,2070.37,False
+BDA-00018,VA36-7986-CBU9,Server,Dell,OptiPlex 7090,Business Intelligence,Rachel Murphy,Dallas Campus,Active,2020-10-29,11584.34,6,2026-10-28,241,Healthy,1281.86,True
+BDA-00019,IX80-6070-CKD7,Server,IBM,System x3650,Finance,Joshua Brooks,Fort Worth Campus,Active,2025-11-09,7568.97,6,2031-11-08,2078,Healthy,7182.15,False
+BDA-00020,JG10-5745-GJA2,Desktop,Dell,OptiPlex 7090,Human Resources,Isaiah Kemp MD,Data Center,Retired,2026-01-14,1706.92,5,2031-01-13,1779,Healthy,1663.93,False
+BDA-00021,LZ04-4036-LOE6,Laptop,Microsoft,Surface Pro 9,Supply Chain,Mrs. Amy Ruiz,Arlington HQ,Active,2020-09-17,1417.07,4,2024-09-16,-531,Critical,0.0,True
+BDA-00022,DD19-8975-JFV3,Server,Dell,Latitude 5540,Clinical Informatics,Dennis Jimenez,Data Center,In-Repair,2020-09-16,3770.88,6,2026-09-15,198,Healthy,343.28,True
+BDA-00023,TE28-1991-VQQ0,Mobile,Apple,MacBook Pro 14,Human Resources,Ryan Jones,Remote,In-Repair,2022-05-01,532.1,3,2025-04-30,-305,Critical,0.0,True
+BDA-00024,GV51-2351-XKA5,Mobile,Apple,MacBook Pro 14,Revenue Cycle,Ryan Williams,Remote,Retired,2021-01-24,919.9,3,2024-01-24,-767,Critical,0.0,True
+BDA-00025,SI90-0118-ERO8,Mobile,Google,Pixel 8,Finance,Michael Stephens,Dallas Campus,Active,2025-03-26,670.47,3,2028-03-25,755,Healthy,462.43,False
+BDA-00026,VZ25-6855-BCO2,Desktop,Lenovo,ThinkPad X1 Carbon,IT Operations,Christopher Payne,Arlington HQ,Active,2022-12-21,670.65,5,2027-12-20,659,Healthy,242.46,False
+BDA-00027,XQ20-0412-TPB1,Laptop,Dell,OptiPlex 7090,Finance,Kristen Hughes,Data Center,Active,2025-08-23,1937.26,4,2029-08-22,1270,Healthy,1685.32,False
+BDA-00028,JC84-8855-IIE1,Desktop,Lenovo,ThinkPad X1 Carbon,Supply Chain,Heidi Schmitt,Dallas Campus,Active,2026-01-29,1569.0,5,2031-01-28,1794,Healthy,1542.37,False
+BDA-00029,KW98-9340-GLW6,Desktop,Dell,Latitude 5540,Business Intelligence,Amber Ochoa,Fort Worth Campus,Active,2023-09-25,1160.43,5,2028-09-23,937,Healthy,596.18,False
+BDA-00030,LZ72-9245-XYH2,Laptop,Dell,Latitude 5540,Business Intelligence,Travis Holmes,Fort Worth Campus,Active,2020-08-13,985.76,4,2024-08-12,-566,Critical,0.0,True
+BDA-00031,QT97-9174-RLD0,Desktop,Dell,PowerEdge R750,Supply Chain,Jorge Richardson,Dallas Campus,Active,2024-03-14,934.25,5,2029-03-13,1108,Healthy,567.46,False
+BDA-00032,IU73-0187-BCK5,Desktop,Dell,OptiPlex 7090,Finance,Linda Logan,Arlington HQ,Active,2021-09-04,1248.71,5,2026-09-03,186,Healthy,128.03,True
+BDA-00033,EL59-7230-JSQ4,Laptop,Dell,Latitude 5540,Human Resources,Katelyn Ramos,Remote,Active,2020-07-01,1163.37,4,2024-06-30,-609,Critical,0.0,True
+BDA-00034,UZ31-7100-BDX6,Mobile,Apple,MacBook Pro 14,Business Intelligence,Susan Cunningham,Arlington HQ,Retired,2022-04-01,612.16,3,2025-03-31,-335,Critical,0.0,True
+BDA-00035,GB83-1303-ANF2,Mobile,Samsung,Galaxy S24,Supply Chain,John Johnson,Dallas Campus,Active,2020-04-02,574.16,3,2023-04-02,-1064,Critical,0.0,True
+BDA-00036,QU43-1645-QUA9,Laptop,Microsoft,Surface Pro 9,Cybersecurity,Jason Garcia,Arlington HQ,Active,2024-08-02,1610.54,4,2028-08-01,884,Healthy,975.58,False
+BDA-00037,KT96-5359-FHA9,Desktop,Dell,PowerEdge R750,Finance,Susan Mejia,Dallas Campus,Active,2022-09-03,681.55,5,2027-09-02,550,Healthy,205.72,False
+BDA-00038,BQ21-0328-WCJ3,Desktop,HP,EliteBook 840,Clinical Informatics,Rachel Garner,Data Center,Active,2021-08-26,1343.26,5,2026-08-25,177,Warning,131.11,True
+BDA-00039,GH00-2201-VHO9,Mobile,Google,Pixel 8,Revenue Cycle,Kevin Armstrong,Dallas Campus,Active,2020-11-02,651.35,3,2023-11-02,-850,Critical,0.0,True
+BDA-00040,BS72-6168-QWM3,Server,HP,EliteBook 840,Revenue Cycle,Courtney Grant,Remote,Active,2025-10-11,9766.78,6,2031-10-10,2049,Healthy,9138.39,False
+BDA-00041,NX64-7269-OMN3,Laptop,Dell,OptiPlex 7090,Finance,Amanda Bell,Arlington HQ,Active,2023-02-26,1660.0,4,2027-02-25,361,Healthy,411.31,True
+BDA-00042,FZ90-9632-EQB9,Desktop,HP,EliteBook 840,Clinical Informatics,James Austin,Fort Worth Campus,Active,2022-04-04,1125.82,5,2027-04-03,398,Healthy,246.12,False
+BDA-00043,UA30-6622-JZO4,Server,IBM,System x3650,Revenue Cycle,Michelle Daniel,Arlington HQ,In-Repair,2020-03-02,4208.62,6,2026-03-01,0,Critical,2.88,True
+BDA-00044,MT27-1865-VRT0,Laptop,Dell,PowerEdge R750,Human Resources,James Lee,Fort Worth Campus,Active,2024-04-18,1158.07,4,2028-04-17,778,Healthy,617.48,False
+BDA-00045,PK81-6087-INR9,Server,Dell,PowerEdge R750,Revenue Cycle,Kimberly Owens MD,Data Center,Active,2021-05-17,11148.03,6,2027-05-16,441,Healthy,2250.97,False
+BDA-00046,ZS24-6404-EUQ7,Laptop,Dell,PowerEdge R750,Business Intelligence,Thomas Duncan,Fort Worth Campus,Active,2026-01-14,1367.05,4,2030-01-13,1414,Healthy,1324.01,False
+BDA-00047,IG92-1875-SAP9,Desktop,Lenovo,ThinkCentre M90,Human Resources,David Farley,Remote,Active,2025-10-04,1113.22,5,2030-10-03,1677,Healthy,1023.0,False
+BDA-00048,VS98-4963-APR6,Laptop,Dell,Latitude 5540,Human Resources,Kyle Francis,Data Center,Active,2023-09-11,1427.67,4,2027-09-10,558,Healthy,546.25,False
+BDA-00049,YP48-5861-BYJ6,Desktop,HP,EliteBook 840,IT Operations,Nicole Wells,Fort Worth Campus,Active,2022-08-08,1719.71,5,2027-08-07,524,Healthy,494.61,False
+BDA-00050,DW27-7348-FPF8,Laptop,Lenovo,ThinkPad X1 Carbon,Clinical Informatics,Matthew Estrada,Arlington HQ,Active,2024-03-08,1751.8,4,2028-03-07,737,Healthy,884.89,False
+BDA-00051,NY44-5249-ALG8,Mobile,Google,Pixel 8,Clinical Informatics,Dennis Cruz,Dallas Campus,Retired,2024-12-16,1048.62,3,2027-12-16,655,Healthy,627.55,False
+BDA-00052,XV98-7860-YZA6,Mobile,Apple,MacBook Pro 14,Cybersecurity,Jeffrey Smith,Remote,Active,2025-04-25,1091.25,3,2028-04-24,785,Healthy,782.52,False
+BDA-00053,GZ48-2672-YHV1,Desktop,HP,EliteBook 840,Finance,Katrina Roberts,Remote,Active,2022-06-30,1630.31,5,2027-06-29,485,Healthy,434.08,False
+BDA-00054,DW48-2866-QWN8,Desktop,Dell,OptiPlex 7090,Cybersecurity,Kyle Thompson,Fort Worth Campus,Active,2021-09-18,1645.59,5,2026-09-17,200,Healthy,181.34,True
+BDA-00055,VZ44-9790-FTL6,Desktop,Dell,PowerEdge R750,Clinical Informatics,Patricia Garner,Remote,Active,2020-06-10,1637.22,5,2025-06-09,-265,Critical,0.0,True
+BDA-00056,AO86-8713-BSC6,Server,HP,ProLiant DL380,Business Intelligence,Kathy King,Data Center,Active,2023-12-21,3248.4,6,2029-12-19,1389,Healthy,2061.1,False
+BDA-00057,VY15-2540-IUY3,Server,Dell,PowerEdge R750,Revenue Cycle,Chad Wilson,Arlington HQ,Active,2023-11-07,6911.07,6,2029-11-05,1345,Healthy,4246.3,False
+BDA-00058,ET53-7222-RDR8,Server,HP,ProLiant DL380,Finance,Jason Shelton,Remote,Active,2025-04-11,4710.71,6,2031-04-10,1866,Healthy,4014.26,False
+BDA-00059,YJ21-7041-NZV6,Laptop,Apple,MacBook Pro 14,Clinical Informatics,Katrina Berry,Fort Worth Campus,Active,2025-03-19,2413.09,4,2029-03-18,1113,Healthy,1839.96,False
+BDA-00060,CK48-1244-MBI9,Server,IBM,System x3650,Finance,Sara King,Fort Worth Campus,Active,2026-01-12,9002.04,6,2032-01-11,2142,Healthy,8804.87,False
+BDA-00061,PB02-2706-YTS9,Server,HP,ProLiant DL380,Revenue Cycle,Andrea Murphy,Data Center,Active,2020-10-10,6784.02,6,2026-10-09,222,Healthy,691.87,True
+BDA-00062,OR42-1377-ZKC3,Mobile,Google,Pixel 8,Revenue Cycle,Andrew Acevedo,Remote,Active,2023-05-03,400.32,3,2026-05-02,62,Critical,22.93,True
+BDA-00063,HC19-1683-OJC0,Server,Dell,OptiPlex 7090,Cybersecurity,Jonathan Roberts,Remote,Active,2023-05-12,9080.65,6,2029-05-10,1166,Healthy,4837.63,False
+BDA-00064,QX28-4199-UAY2,Mobile,Google,Pixel 8,Finance,Kevin Martinez,Fort Worth Campus,Active,2022-09-20,906.35,3,2025-09-19,-163,Critical,0.0,True
+BDA-00065,JV40-7448-HJV0,Server,Dell,Latitude 5540,Revenue Cycle,Norman English,Dallas Campus,Active,2024-09-27,4326.19,6,2030-09-26,1670,Healthy,3299.67,False
+BDA-00066,VR67-8462-XUT6,Laptop,HP,ProDesk 600,Finance,Cody Anderson,Remote,Active,2021-04-20,1870.6,4,2025-04-19,-316,Critical,0.0,True
+BDA-00067,TN19-3250-VAH5,Desktop,Lenovo,ThinkCentre M90,Supply Chain,Madeline Olson,Remote,Active,2022-12-09,1387.27,5,2027-12-08,647,Healthy,492.43,False
+BDA-00068,MO58-5241-GQI2,Laptop,Dell,OptiPlex 7090,Clinical Informatics,John Jennings,Dallas Campus,Active,2020-09-23,1983.05,4,2024-09-22,-525,Critical,0.0,True
+BDA-00069,ZD73-2295-TIH5,Mobile,Apple,MacBook Pro 14,Finance,Hailey Rose,Remote,Active,2022-12-14,771.71,3,2025-12-13,-78,Critical,0.0,True
+BDA-00070,XU80-4993-AIS3,Server,HP,ProLiant DL380,Business Intelligence,Kristen Chan,Data Center,Active,2024-02-16,4432.42,6,2030-02-14,1446,Healthy,2927.64,False
+BDA-00071,AU52-9806-IND7,Mobile,Samsung,Galaxy S24,Clinical Informatics,Mrs. Jennifer Pearson DDS,Fort Worth Campus,Active,2021-04-04,817.04,3,2024-04-03,-697,Critical,0.0,True
+BDA-00072,UC60-4971-QFD4,Desktop,HP,ProDesk 600,Finance,Jesus Rivera,Fort Worth Campus,Active,2023-06-03,1003.02,5,2028-06-01,823,Healthy,452.7,False
+BDA-00073,ZC96-6544-ZJU4,Laptop,HP,EliteBook 840,Clinical Informatics,Gregory Bryant,Remote,Active,2025-07-27,2000.91,4,2029-07-26,1243,Healthy,1703.72,False
+BDA-00074,AK20-3982-BRJ7,Laptop,Apple,iPhone 15 Pro,Cybersecurity,Christopher Fields,Data Center,Active,2022-03-28,905.85,4,2026-03-27,26,Critical,16.74,True
+BDA-00075,ID39-0336-ZOD5,Mobile,Samsung,Galaxy S24,Business Intelligence,Thomas Walker,Remote,Active,2021-10-21,681.41,3,2024-10-20,-497,Critical,0.0,True
+BDA-00076,QF14-5758-STW4,Mobile,Samsung,Galaxy S24,Supply Chain,James Burns,Dallas Campus,Active,2022-01-23,788.51,3,2025-01-22,-403,Critical,0.0,True
+BDA-00077,CR03-1183-FYQ8,Mobile,Samsung,Galaxy S24,Human Resources,Michelle Barker,Remote,In-Repair,2022-04-16,1184.58,3,2025-04-15,-320,Critical,0.0,True
+BDA-00078,AR91-7439-ELQ8,Laptop,Apple,MacBook Pro 14,Finance,Amber Rodriguez,Remote,Active,2025-04-09,1584.89,4,2029-04-08,1134,Healthy,1231.25,False
+BDA-00079,IO07-0251-DMN4,Laptop,Lenovo,ThinkCentre M90,Cybersecurity,James Sanchez,Dallas Campus,Active,2022-01-10,1373.75,4,2026-01-09,-51,Critical,0.0,True
+BDA-00080,KU22-2508-EFG0,Mobile,Samsung,Galaxy S24,Revenue Cycle,Alicia Hawkins,Arlington HQ,Active,2020-08-12,999.22,3,2023-08-12,-932,Critical,0.0,True
+BDA-00081,GN10-0074-PYI5,Laptop,Lenovo,ThinkPad X1 Carbon,Finance,Terry Arellano,Arlington HQ,Active,2026-01-08,2414.34,4,2030-01-07,1408,Healthy,2328.41,False
+BDA-00082,IN22-6819-JCX1,Desktop,Dell,PowerEdge R750,Human Resources,Heather Wells,Dallas Campus,Active,2024-03-11,1403.35,5,2029-03-10,1105,Healthy,850.08,False
+BDA-00083,OQ96-1097-BLU6,Desktop,HP,ProLiant DL380,Revenue Cycle,David Lee,Fort Worth Campus,Active,2022-12-06,1328.7,5,2027-12-05,644,Healthy,469.46,False
+BDA-00084,ZY60-8418-KTU5,Laptop,HP,ProDesk 600,Finance,Christopher Herman,Data Center,Active,2020-06-26,1330.33,4,2024-06-25,-614,Critical,0.0,True
+BDA-00085,RE15-2229-TVP5,Mobile,Samsung,Galaxy S24,Finance,Anthony Walters,Data Center,Active,2023-12-18,901.79,3,2026-12-17,291,Healthy,240.11,True
+BDA-00086,CA02-1108-RAK2,Laptop,Lenovo,ThinkPad X1 Carbon,IT Operations,Randy Henderson,Fort Worth Campus,Active,2021-01-03,1924.59,4,2025-01-02,-423,Critical,0.0,True
+BDA-00087,QR63-6450-QFH3,Laptop,Microsoft,Surface Pro 9,IT Operations,Trevor Valdez,Remote,Active,2022-06-14,979.42,4,2026-06-13,104,Warning,70.39,True
+BDA-00088,QP58-7183-LLU2,Server,IBM,System x3650,Human Resources,James James,Remote,Active,2023-03-09,7695.72,6,2029-03-07,1102,Healthy,3875.08,False
+BDA-00089,FM80-8879-UCH9,Server,IBM,System x3650,Supply Chain,Edward Clark,Remote,Active,2022-02-08,8332.27,6,2028-02-07,708,Healthy,2697.58,False
+BDA-00090,XM43-9972-OUN1,Server,Dell,Latitude 5540,Revenue Cycle,Jonathan Harris,Remote,Active,2025-05-06,7182.38,6,2031-05-05,1891,Healthy,6202.44,False
+BDA-00091,QL36-1397-JIL2,Mobile,Samsung,Galaxy S24,Supply Chain,Rachel West,Fort Worth Campus,Active,2021-08-23,569.7,3,2024-08-22,-556,Critical,0.0,True
+BDA-00092,CB47-6664-ZTO1,Server,HP,ProDesk 600,Revenue Cycle,William Cox,Data Center,Active,2024-04-20,11532.56,6,2030-04-19,1510,Healthy,7954.12,False
+BDA-00093,BD39-1455-AXA9,Laptop,HP,ProLiant DL380,Business Intelligence,Michele Townsend,Remote,Active,2024-09-05,1208.55,4,2028-09-04,918,Healthy,760.2,False
+BDA-00094,YS65-2798-KUT1,Mobile,Google,Pixel 8,Supply Chain,Bailey Luna,Arlington HQ,Active,2023-08-28,577.28,3,2026-08-27,179,Warning,94.7,True
+BDA-00095,LO39-6150-NMU4,Desktop,HP,ProLiant DL380,Cybersecurity,Carolyn Lambert,Remote,Active,2026-02-08,1012.51,5,2031-02-07,1804,Healthy,1000.87,False
+BDA-00096,OW93-4019-WTV4,Server,HP,ProLiant DL380,Supply Chain,Dr. Angela Serrano DDS,Fort Worth Campus,Active,2023-05-25,5074.84,6,2029-05-23,1179,Healthy,2733.67,False
+BDA-00097,CW16-8005-ONG7,Desktop,HP,EliteBook 840,Human Resources,Robert Petty,Dallas Campus,Active,2023-01-28,1181.04,5,2028-01-27,697,Healthy,451.56,False
+BDA-00098,CE54-3157-OEB3,Server,Dell,Latitude 5540,Revenue Cycle,Mary Williams,Dallas Campus,Active,2025-11-21,5720.41,6,2031-11-20,2090,Healthy,5459.38,False
+BDA-00099,ZZ48-4081-ILU2,Desktop,HP,EliteBook 840,IT Operations,Caleb Miller,Data Center,Active,2021-11-29,1732.91,5,2026-11-28,272,Healthy,259.28,True
+BDA-00100,QR59-2058-LAW5,Mobile,Apple,MacBook Pro 14,Revenue Cycle,William Hutchinson,Remote,Active,2021-09-03,672.56,3,2024-09-02,-545,Critical,0.0,True
+BDA-00101,WF96-5746-KCR0,Laptop,Lenovo,ThinkCentre M90,Finance,Jeffrey Thornton,Arlington HQ,Active,2025-08-10,925.94,4,2029-08-09,1257,Healthy,797.28,False
+BDA-00102,VD13-9191-GEL8,Laptop,HP,EliteBook 840,Revenue Cycle,Donna Harris,Arlington HQ,Retired,2023-11-30,1001.37,4,2027-11-29,638,Healthy,437.97,False
+BDA-00103,EX99-7295-VJL5,Mobile,Google,Pixel 8,Business Intelligence,Susan Odonnell,Remote,In-Repair,2021-08-13,637.88,3,2024-08-12,-566,Critical,0.0,True
+BDA-00104,XZ32-1400-HBJ8,Mobile,Samsung,Galaxy S24,Finance,Stefanie Velazquez,Dallas Campus,Active,2021-05-29,611.72,3,2024-05-28,-642,Critical,0.0,True
+BDA-00105,AP77-3943-EZN2,Laptop,HP,EliteBook 840,Human Resources,Jessica Wilson,Data Center,Active,2022-06-03,804.55,4,2026-06-02,93,Warning,51.76,True
+BDA-00106,CF71-4571-QYH7,Mobile,Google,Pixel 8,Revenue Cycle,Mario Harvey,Arlington HQ,Active,2021-03-24,965.56,3,2024-03-23,-708,Critical,0.0,True
+BDA-00107,RK10-0521-YHA1,Mobile,Apple,MacBook Pro 14,Revenue Cycle,Michael Norton,Data Center,Active,2022-06-01,1146.93,3,2025-05-31,-274,Critical,0.0,True
+BDA-00108,ZL93-4479-ADQ7,Mobile,Apple,MacBook Pro 14,Human Resources,Chelsea Ramirez,Fort Worth Campus,Active,2026-01-19,457.13,3,2029-01-18,1054,Healthy,440.03,False
+BDA-00109,WZ71-8710-HPP5,Desktop,HP,ProLiant DL380,Revenue Cycle,Allen Taylor,Remote,Active,2026-02-25,1426.41,5,2031-02-24,1821,Healthy,1423.29,False
+BDA-00110,XJ21-2432-ZDU5,Mobile,Samsung,Galaxy S24,Supply Chain,Jeffery Castillo,Arlington HQ,Active,2022-06-04,1111.54,3,2025-06-03,-271,Critical,0.0,True
+BDA-00111,KF57-4107-GVX7,Server,IBM,System x3650,IT Operations,Kyle West,Arlington HQ,Active,2023-02-28,9068.69,6,2029-02-26,1093,Healthy,4529.17,False
+BDA-00112,OJ09-5148-JYO1,Laptop,Lenovo,ThinkPad X1 Carbon,Human Resources,Lori Shaffer,Remote,Active,2021-11-12,1551.79,4,2025-11-11,-110,Critical,0.0,True
+BDA-00113,OE44-2925-DNX3,Server,Dell,PowerEdge R750,Business Intelligence,Joseph Carson,Remote,Retired,2025-08-23,7230.09,6,2031-08-22,2000,Healthy,6603.25,False
+BDA-00114,NA03-9914-OJL5,Mobile,Samsung,Galaxy S24,Finance,Andrew Johnson,Dallas Campus,Active,2022-06-04,954.94,3,2025-06-03,-271,Critical,0.0,True
+BDA-00115,SW07-2202-REO5,Server,IBM,System x3650,IT Operations,Samuel Chen,Remote,Active,2023-06-17,5271.59,6,2029-06-15,1202,Healthy,2894.98,False
+BDA-00116,AO50-2947-LEQ2,Laptop,Apple,MacBook Pro 14,Supply Chain,Robert Carter,Remote,Active,2023-08-11,1681.35,4,2027-08-10,527,Healthy,607.63,False
+BDA-00117,NH95-8055-EGF3,Mobile,Google,Pixel 8,IT Operations,James Thornton,Dallas Campus,Active,2022-02-03,504.81,3,2025-02-02,-392,Critical,0.0,True
+BDA-00118,SO11-4507-FVK8,Server,HP,ProLiant DL380,Supply Chain,Brandon Osborn,Arlington HQ,Active,2024-03-04,8670.2,6,2030-03-03,1463,Healthy,5793.98,False
+BDA-00119,VF49-6572-TUB0,Desktop,Lenovo,ThinkPad X1 Carbon,Revenue Cycle,Craig Murphy,Data Center,Active,2026-01-20,1089.59,5,2031-01-19,1785,Healthy,1065.72,False
+BDA-00120,CT56-6653-RZC8,Desktop,Dell,OptiPlex 7090,Finance,Austin Baker,Dallas Campus,Active,2023-09-25,1459.92,5,2028-09-23,937,Healthy,750.05,False
+BDA-00121,XS33-0078-ZMR0,Server,HP,ProDesk 600,Supply Chain,Rodney Carroll,Dallas Campus,Active,2020-05-04,4301.78,6,2026-05-03,63,Critical,126.61,True
+BDA-00122,CZ92-4089-WCK8,Desktop,Lenovo,ThinkPad X1 Carbon,Finance,Jon Roman,Fort Worth Campus,Active,2024-07-03,1625.29,5,2029-07-02,1219,Healthy,1085.97,False
+BDA-00123,JY05-5412-SHK3,Server,IBM,System x3650,IT Operations,Joshua Velez,Fort Worth Campus,Active,2024-04-04,10537.28,6,2030-04-03,1494,Healthy,7190.74,False
+BDA-00124,IY56-3137-XQB8,Mobile,Apple,iPhone 15 Pro,Supply Chain,Harold West,Fort Worth Campus,Active,2020-06-05,1010.3,3,2023-06-05,-1000,Critical,0.0,True
+BDA-00125,LJ84-6250-ESP1,Mobile,Samsung,Galaxy S24,Clinical Informatics,Susan Ayala,Dallas Campus,Active,2021-11-27,586.85,3,2024-11-26,-460,Critical,0.0,True
+BDA-00126,ZD31-4987-ZPR6,Mobile,Apple,iPhone 15 Pro,Supply Chain,Lisa Harrison,Remote,Active,2021-06-02,930.95,3,2024-06-01,-638,Critical,0.0,True
+BDA-00127,IZ03-5486-ETK6,Desktop,HP,EliteBook 840,Human Resources,Melinda Guzman,Data Center,Retired,2023-06-29,998.39,5,2028-06-27,849,Healthy,464.82,False
+BDA-00128,NE58-6433-YEK6,Laptop,Apple,MacBook Pro 14,Supply Chain,Mercedes Anderson,Arlington HQ,Active,2025-01-07,1496.96,4,2029-01-06,1042,Healthy,1068.67,False
+BDA-00129,ZK53-8392-CMN7,Desktop,Dell,OptiPlex 7090,Revenue Cycle,Brooke Webb,Fort Worth Campus,Active,2026-01-20,1076.98,5,2031-01-19,1785,Healthy,1053.39,False
+BDA-00130,NL14-4269-NYG3,Laptop,Lenovo,ThinkCentre M90,Cybersecurity,Jared Williams,Remote,Active,2022-12-14,861.03,4,2026-12-13,287,Healthy,169.73,True
+BDA-00131,XO85-2805-DYR7,Laptop,HP,ProLiant DL380,Revenue Cycle,Sherri Webb,Dallas Campus,Active,2023-11-17,1537.75,4,2027-11-16,625,Healthy,658.89,False
+BDA-00132,XS86-2444-QUZ0,Laptop,Dell,OptiPlex 7090,Human Resources,Sarah Ward,Fort Worth Campus,In-Repair,2021-09-22,878.18,4,2025-09-21,-161,Critical,0.0,True
+BDA-00133,BE13-3207-STN9,Laptop,Lenovo,ThinkCentre M90,Cybersecurity,Jeffrey Carr,Remote,Active,2021-12-04,1702.98,4,2025-12-03,-88,Critical,0.0,True
+BDA-00134,QT20-9655-XHK8,Desktop,Dell,Latitude 5540,Finance,Erika Hawkins,Data Center,Active,2023-09-15,1343.65,5,2028-09-13,927,Healthy,682.95,False
+BDA-00135,WR67-2431-LHM3,Desktop,HP,ProLiant DL380,Human Resources,Danielle Castro,Dallas Campus,Active,2024-11-07,904.77,5,2029-11-06,1346,Healthy,667.46,False
+BDA-00136,WI41-9352-DHN8,Server,IBM,System x3650,Supply Chain,Rebecca Barrett,Fort Worth Campus,Active,2025-04-11,4421.78,6,2031-04-10,1866,Healthy,3768.05,False
+BDA-00137,XX41-7002-HRC0,Mobile,Samsung,Galaxy S24,Business Intelligence,Christine Sandoval,Fort Worth Campus,Active,2025-04-07,641.7,3,2028-04-06,767,Healthy,449.61,False
+BDA-00138,CH41-6954-TBH7,Mobile,Samsung,Galaxy S24,Clinical Informatics,Kyle Mcdonald,Remote,Active,2020-11-02,859.85,3,2023-11-02,-850,Critical,0.0,True
+BDA-00139,SX42-4147-XQS9,Server,Dell,PowerEdge R750,Business Intelligence,Elizabeth Miller DDS,Fort Worth Campus,Active,2022-09-18,10785.61,6,2028-09-16,930,Healthy,4584.44,False
+BDA-00140,TU12-3641-CJW7,Laptop,Microsoft,Surface Pro 9,Revenue Cycle,Tony Simmons,Dallas Campus,Active,2025-02-23,1398.95,4,2029-02-22,1089,Healthy,1043.71,False
+BDA-00141,LB81-2669-GAN8,Desktop,Lenovo,ThinkCentre M90,Human Resources,Andrew Francis,Arlington HQ,In-Repair,2022-04-05,1375.61,5,2027-04-04,399,Healthy,301.49,False
+BDA-00142,WH37-3783-BGP4,Server,HP,EliteBook 840,Cybersecurity,Amber Rice,Dallas Campus,Active,2020-08-28,5655.99,6,2026-08-27,179,Warning,465.85,True
+BDA-00143,ZR53-9524-KGJ2,Mobile,Apple,MacBook Pro 14,Human Resources,Christine Harding,Data Center,Active,2022-04-09,692.69,3,2025-04-08,-327,Critical,0.0,True
+BDA-00144,SI84-9377-ECW0,Server,Dell,OptiPlex 7090,Supply Chain,Megan Lawson,Fort Worth Campus,Active,2022-11-25,6048.44,6,2028-11-23,998,Healthy,2758.57,False
+BDA-00145,CQ53-0817-JYT4,Laptop,Apple,MacBook Pro 14,Human Resources,Nathan Hammond,Dallas Campus,Active,2020-08-12,2031.17,4,2024-08-11,-567,Critical,0.0,True
+BDA-00146,BR25-8464-UFH1,Mobile,Google,Pixel 8,Finance,Margaret Patel,Remote,Active,2024-04-05,829.26,3,2027-04-05,400,Healthy,303.29,False
+BDA-00147,UE63-7678-TEG7,Mobile,Samsung,Galaxy S24,Business Intelligence,Jacob Rios,Fort Worth Campus,Active,2021-09-27,587.06,3,2024-09-26,-521,Critical,0.0,True
+BDA-00148,UR04-2054-YQQ0,Laptop,Microsoft,Surface Pro 9,Clinical Informatics,Trevor Gaines,Arlington HQ,Active,2023-10-02,1589.25,4,2027-10-01,579,Healthy,630.91,False
+BDA-00149,CE06-9016-IQX3,Server,IBM,System x3650,Finance,Christopher Crane,Dallas Campus,Active,2022-08-21,3334.91,6,2028-08-19,902,Healthy,1374.9,False
+BDA-00150,UP85-7966-DCY4,Mobile,Apple,MacBook Pro 14,Clinical Informatics,Robert Flynn,Data Center,Active,2021-12-16,762.92,3,2024-12-15,-441,Critical,0.0,True
+BDA-00151,EN80-3782-CQA4,Mobile,Google,Pixel 8,Business Intelligence,Maria Allen,Arlington HQ,Active,2025-10-30,892.52,3,2028-10-29,973,Healthy,793.15,False
+BDA-00152,TX17-3590-WXU8,Server,Dell,PowerEdge R750,Cybersecurity,Robert Shepherd,Dallas Campus,Active,2025-01-26,11555.0,6,2031-01-25,1791,Healthy,9451.21,False
+BDA-00153,DX31-8214-ETT7,Server,Dell,PowerEdge R750,Cybersecurity,Brent Johnson,Data Center,In-Repair,2022-07-11,8803.44,6,2028-07-09,861,Healthy,3464.74,False
+BDA-00154,KE94-8580-HNE9,Laptop,Apple,iPhone 15 Pro,Clinical Informatics,Brian Walker,Arlington HQ,In-Repair,2022-07-27,2201.12,4,2026-07-26,147,Warning,222.97,True
+BDA-00155,SM21-4911-LIN5,Laptop,HP,ProLiant DL380,IT Operations,Anna Carr,Arlington HQ,Active,2020-10-14,1214.07,4,2024-10-13,-504,Critical,0.0,True
+BDA-00156,PU11-8485-FQO6,Desktop,Lenovo,ThinkPad X1 Carbon,Finance,Valerie Taylor,Data Center,Active,2022-06-14,859.14,5,2027-06-13,469,Healthy,221.22,False
+BDA-00157,UW89-5149-CBE6,Desktop,HP,EliteBook 840,IT Operations,Edward Young,Fort Worth Campus,Active,2023-08-24,773.63,5,2028-08-22,905,Healthy,383.9,False
+BDA-00158,FC03-8873-VMT8,Desktop,Lenovo,ThinkCentre M90,Human Resources,John Swanson,Arlington HQ,Active,2021-10-28,630.94,5,2026-10-27,240,Healthy,83.35,True
+BDA-00159,LG06-8583-LCD3,Laptop,Lenovo,ThinkPad X1 Carbon,Cybersecurity,Jessica Green,Arlington HQ,Active,2020-10-09,889.08,4,2024-10-08,-509,Critical,0.0,True
+BDA-00160,DJ01-0418-QBV4,Mobile,Google,Pixel 8,Finance,Jason Wilson,Remote,Active,2025-07-18,689.63,3,2028-07-17,869,Healthy,547.39,False
+BDA-00161,UT99-3694-NRV6,Laptop,Apple,MacBook Pro 14,IT Operations,Jessica Stanton,Data Center,Active,2024-04-10,1893.68,4,2028-04-09,770,Healthy,999.33,False
+BDA-00162,RX33-3504-PVX0,Laptop,Dell,OptiPlex 7090,Business Intelligence,Bryan Lewis,Remote,Active,2022-03-05,1633.46,4,2026-03-04,3,Critical,4.47,True
+BDA-00163,GZ05-8447-MQV3,Mobile,Apple,MacBook Pro 14,Cybersecurity,Shannon Brown,Data Center,Active,2022-01-07,500.95,3,2025-01-06,-419,Critical,0.0,True
+BDA-00164,WG43-2186-DDC7,Server,HP,ProLiant DL380,Revenue Cycle,Katie Rodriguez,Remote,Active,2020-09-05,6871.79,6,2026-09-04,187,Healthy,591.07,True
+BDA-00165,BW46-9346-EQV6,Laptop,Microsoft,Surface Pro 9,Business Intelligence,Tanya Taylor,Remote,Active,2022-02-27,1503.48,4,2026-02-26,-3,Critical,0.0,True
+BDA-00166,YZ53-1605-JWS9,Mobile,Samsung,Galaxy S24,Finance,Jacob Clark,Fort Worth Campus,Active,2024-06-30,932.09,3,2027-06-30,486,Healthy,414.05,False
+BDA-00167,WU87-6706-IEV1,Server,Dell,PowerEdge R750,Supply Chain,Todd Levine,Arlington HQ,Active,2025-01-09,3768.28,6,2031-01-08,1774,Healthy,3052.97,False
+BDA-00168,JB90-8666-WSS5,Mobile,Apple,iPhone 15 Pro,Human Resources,Reginald Erickson,Data Center,Active,2022-08-22,1165.3,3,2025-08-21,-192,Critical,0.0,True
+BDA-00169,OI56-8219-ERO1,Server,IBM,System x3650,Business Intelligence,Allison Hood,Fort Worth Campus,Active,2025-04-06,11470.17,6,2031-04-05,1861,Healthy,9748.21,False
+BDA-00170,VV56-5007-EQH6,Mobile,Google,Pixel 8,Revenue Cycle,Angela Garcia,Data Center,Active,2021-09-29,482.88,3,2024-09-28,-519,Critical,0.0,True
+BDA-00171,UZ87-1157-ACV8,Desktop,Dell,PowerEdge R750,Supply Chain,Stacey Williams,Dallas Campus,Active,2025-02-13,1020.14,5,2030-02-12,1444,Healthy,807.31,False
+BDA-00172,YV56-0504-BGC2,Server,Dell,OptiPlex 7090,Clinical Informatics,Paul Kelley,Remote,Active,2021-10-20,11770.92,6,2027-10-19,597,Healthy,3214.65,False
+BDA-00173,XP89-4934-RBY3,Laptop,Microsoft,Surface Pro 9,IT Operations,Antonio Briggs,Dallas Campus,Active,2020-03-04,2096.1,4,2024-03-03,-728,Critical,0.0,True
+BDA-00174,TD89-2601-WEA0,Server,HP,EliteBook 840,Human Resources,Renee Compton,Dallas Campus,Active,2023-09-07,6607.06,6,2029-09-05,1284,Healthy,3875.6,False
+BDA-00175,EO26-1575-BRC3,Desktop,Lenovo,ThinkPad X1 Carbon,Finance,Andrew Coffey,Data Center,Active,2022-01-26,1103.8,5,2027-01-25,330,Healthy,200.21,True
+BDA-00176,FR55-3755-UWY2,Server,Dell,OptiPlex 7090,Revenue Cycle,Amber Brown,Fort Worth Campus,Active,2025-05-09,8108.34,6,2031-05-08,1894,Healthy,7013.17,False
+BDA-00177,XU38-6594-NOO3,Laptop,Dell,Latitude 5540,Human Resources,Stephanie Allen,Data Center,Active,2023-02-16,938.69,4,2027-02-15,351,Healthy,226.16,True
+BDA-00178,VJ80-2396-SXW8,Mobile,Google,Pixel 8,Supply Chain,James Huang,Data Center,Active,2021-09-12,618.53,3,2024-09-11,-536,Critical,0.0,True
+BDA-00179,RV71-4955-GAI6,Laptop,Lenovo,ThinkCentre M90,Finance,Terry Olsen,Fort Worth Campus,Active,2021-12-05,1808.33,4,2025-12-04,-87,Critical,0.0,True
+BDA-00180,RC83-6508-QAK3,Server,Dell,Latitude 5540,Business Intelligence,Sabrina Larson,Data Center,Active,2022-07-02,4839.81,6,2028-06-30,852,Healthy,1884.91,False
+BDA-00181,KX65-3651-XRS7,Desktop,Dell,OptiPlex 7090,Revenue Cycle,Tammy Burnett,Fort Worth Campus,Active,2022-05-24,1196.86,5,2027-05-23,448,Healthy,294.42,False
+BDA-00182,PE03-8164-RPY8,Mobile,Apple,MacBook Pro 14,Business Intelligence,Kevin Lane,Data Center,Active,2025-03-25,800.21,3,2028-03-24,754,Healthy,551.18,False
+BDA-00183,GT01-8913-QQN5,Server,Dell,OptiPlex 7090,IT Operations,Mark Hood,Remote,Active,2024-12-26,11290.46,6,2030-12-25,1760,Healthy,9075.13,False
+BDA-00184,QC93-6808-QEV2,Server,IBM,System x3650,Business Intelligence,Sean Butler,Remote,Active,2023-11-08,6645.29,6,2029-11-06,1346,Healthy,4086.03,False
+BDA-00185,UJ98-7563-YVV9,Server,Dell,PowerEdge R750,Supply Chain,Angela Gonzalez,Fort Worth Campus,Active,2024-11-30,10600.36,6,2030-11-29,1734,Healthy,8394.67,False
+BDA-00186,SN67-7859-SZD8,Desktop,HP,ProLiant DL380,Business Intelligence,Vincent Ruiz,Data Center,Active,2020-05-23,1644.63,5,2025-05-22,-283,Critical,0.0,True
+BDA-00187,RQ43-0322-IKO2,Server,Dell,OptiPlex 7090,Human Resources,Anthony Moore,Arlington HQ,Active,2024-12-09,4026.24,6,2030-12-08,1743,Healthy,3205.01,False
+BDA-00188,AG82-2668-UVJ0,Desktop,HP,ProDesk 600,Human Resources,Jose Wright,Dallas Campus,Active,2021-12-17,907.16,5,2026-12-16,290,Healthy,144.67,True
+BDA-00189,OL83-2138-ADC2,Desktop,Lenovo,ThinkPad X1 Carbon,Finance,Laura Tucker,Dallas Campus,Retired,2024-12-26,1353.54,5,2029-12-25,1395,Healthy,1034.84,False
+BDA-00190,EX15-8298-BUF4,Mobile,Google,Pixel 8,Cybersecurity,Bonnie Hawkins,Fort Worth Campus,Active,2025-01-14,454.63,3,2028-01-14,684,Healthy,284.1,False
+BDA-00191,RD17-5707-DKA8,Mobile,Google,Pixel 8,Revenue Cycle,Edgar Thompson,Data Center,Active,2022-01-09,805.87,3,2025-01-08,-417,Critical,0.0,True
+BDA-00192,SG89-3582-ZXX7,Server,HP,ProDesk 600,IT Operations,Anita Robinson,Arlington HQ,Active,2022-09-29,5583.69,6,2028-09-27,941,Healthy,2401.38,False
+BDA-00193,ZJ01-4171-OBI0,Laptop,Microsoft,Surface Pro 9,Supply Chain,Roy Sanchez,Data Center,Active,2024-11-16,2146.09,4,2028-11-15,990,Healthy,1455.7,False
+BDA-00194,RJ71-5418-KHV3,Laptop,Apple,MacBook Pro 14,Cybersecurity,Ryan Torres MD,Data Center,Active,2024-05-13,1056.46,4,2028-05-12,803,Healthy,581.38,False
+BDA-00195,FL27-2361-RAF4,Laptop,Apple,MacBook Pro 14,Cybersecurity,Mrs. Heather Lee,Arlington HQ,Active,2025-02-02,1093.35,4,2029-02-01,1068,Healthy,799.99,False
+BDA-00196,EL49-3979-DZD7,Desktop,Lenovo,ThinkCentre M90,Supply Chain,Samantha Tucker,Data Center,Active,2023-12-21,790.5,5,2028-12-19,1024,Healthy,443.78,False
+BDA-00197,GJ91-7384-QHW8,Server,HP,ProDesk 600,Business Intelligence,Paul Lewis,Fort Worth Campus,Active,2021-06-08,3471.29,6,2027-06-07,463,Healthy,735.76,False
+BDA-00198,HD81-1436-ORS3,Server,Dell,OptiPlex 7090,Finance,Jocelyn Nelson DDS,Data Center,Active,2022-03-13,5557.32,6,2028-03-11,741,Healthy,1882.87,False
+BDA-00199,WX32-1924-QAY7,Desktop,HP,EliteBook 840,Human Resources,Mike Pena,Fort Worth Campus,Active,2025-02-26,1387.27,5,2030-02-25,1457,Healthy,1107.73,False
+BDA-00200,VP61-5826-BJQ3,Mobile,Apple,MacBook Pro 14,Revenue Cycle,Robert Contreras,Data Center,Active,2020-07-22,1033.33,3,2023-07-22,-953,Critical,0.0,True
+BDA-00201,AE31-8866-LYY1,Desktop,Lenovo,ThinkPad X1 Carbon,Business Intelligence,Stacey Baxter,Data Center,Active,2020-12-16,1035.12,5,2025-12-15,-76,Critical,0.0,True
+BDA-00202,QU22-0532-ZYJ4,Desktop,Dell,OptiPlex 7090,Supply Chain,Robert Davis,Dallas Campus,Active,2023-09-16,765.08,5,2028-09-14,928,Healthy,389.3,False
+BDA-00203,DB29-7729-YJA7,Laptop,Lenovo,ThinkPad X1 Carbon,IT Operations,David Lee,Fort Worth Campus,Active,2020-08-18,1850.65,4,2024-08-17,-561,Critical,0.0,True
+BDA-00204,PM52-6247-KYM6,Mobile,Apple,MacBook Pro 14,Human Resources,Mary Johnson,Data Center,Active,2022-01-14,532.43,3,2025-01-13,-412,Critical,0.0,True
+BDA-00205,MB69-6471-CQR5,Mobile,Apple,iPhone 15 Pro,Cybersecurity,Keith Archer,Dallas Campus,Retired,2024-05-26,888.48,3,2027-05-26,451,Healthy,366.3,False
+BDA-00206,YT01-3414-EPK0,Mobile,Apple,MacBook Pro 14,Revenue Cycle,Megan Roy,Remote,In-Repair,2024-08-22,555.21,3,2027-08-22,539,Healthy,273.49,False
+BDA-00207,ID04-2158-ZNO7,Mobile,Samsung,Galaxy S24,Business Intelligence,Ashley Anderson,Data Center,Active,2021-01-08,1173.01,3,2024-01-08,-783,Critical,0.0,True
+BDA-00208,TG08-2068-GRD2,Desktop,Lenovo,ThinkPad X1 Carbon,Revenue Cycle,Brenda Donaldson,Arlington HQ,Active,2024-04-06,1648.94,5,2029-04-05,1131,Healthy,1022.32,False
+BDA-00209,QI51-1061-NQG6,Laptop,Microsoft,Surface Pro 9,Revenue Cycle,Audrey Davis,Arlington HQ,Active,2024-09-18,1263.75,4,2028-09-17,931,Healthy,806.17,False
+BDA-00210,CI45-4141-FKG9,Desktop,HP,EliteBook 840,Clinical Informatics,Michael Stevenson,Remote,Active,2023-04-04,1716.57,5,2028-04-02,763,Healthy,718.35,False
+BDA-00211,HM11-7361-DDZ8,Mobile,Apple,iPhone 15 Pro,Cybersecurity,Franklin Green PhD,Dallas Campus,Active,2023-01-21,465.28,3,2026-01-20,-40,Critical,0.0,True
+BDA-00212,WY97-3158-QKR2,Desktop,Dell,OptiPlex 7090,Finance,Johnny Williams,Fort Worth Campus,Active,2023-04-16,765.12,5,2028-04-14,775,Healthy,325.22,False
+BDA-00213,JM86-8240-UYK9,Server,HP,ProLiant DL380,Human Resources,Misty Lara,Remote,Active,2021-08-29,3047.26,6,2027-08-28,545,Healthy,759.9,False
+BDA-00214,ZF51-0704-DIG7,Laptop,Dell,OptiPlex 7090,Clinical Informatics,Curtis Burns,Dallas Campus,Active,2025-12-04,2036.3,4,2029-12-03,1373,Healthy,1915.04,False
+BDA-00215,HI36-9833-ODU3,Mobile,Apple,iPhone 15 Pro,Clinical Informatics,Louis Proctor,Fort Worth Campus,Active,2020-04-21,590.75,3,2023-04-21,-1045,Critical,0.0,True
+BDA-00216,JF14-5183-BLO7,Mobile,Apple,MacBook Pro 14,Supply Chain,Jeffrey Stephens,Data Center,Active,2023-05-06,905.56,3,2026-05-05,65,Critical,54.34,True
+BDA-00217,IH66-9908-CKW7,Desktop,Lenovo,ThinkPad X1 Carbon,Revenue Cycle,Jennifer Ray,Remote,Active,2024-02-02,1023.38,5,2029-01-31,1067,Healthy,598.62,False
+BDA-00218,XY53-3086-QEZ2,Mobile,Apple,MacBook Pro 14,Cybersecurity,Darryl Huff,Arlington HQ,Retired,2023-02-25,835.27,3,2026-02-24,-5,Critical,0.0,True
+BDA-00219,MM08-9873-QKM6,Laptop,Apple,iPhone 15 Pro,IT Operations,Stephanie Rogers,Remote,Retired,2022-11-05,1231.21,4,2026-11-04,248,Healthy,209.84,True
+BDA-00220,QC06-2255-EDR2,Laptop,Lenovo,ThinkPad X1 Carbon,Cybersecurity,Tina Dunn,Dallas Campus,Active,2025-01-11,1868.04,4,2029-01-10,1046,Healthy,1338.7,False
+BDA-00221,OZ59-7919-EPI3,Server,Dell,Latitude 5540,Cybersecurity,Sarah Moore,Data Center,Active,2020-12-04,8785.16,6,2026-12-03,277,Healthy,1116.43,True
+BDA-00222,RF13-6633-MDD3,Mobile,Google,Pixel 8,Human Resources,Megan Garcia,Dallas Campus,Active,2021-08-18,1020.95,3,2024-08-17,-561,Critical,0.0,True
+BDA-00223,PW54-2083-DLJ0,Mobile,Apple,iPhone 15 Pro,Clinical Informatics,Holly Harrell,Arlington HQ,Active,2021-03-03,1108.63,3,2024-03-02,-729,Critical,0.0,True
+BDA-00224,VW19-8252-SHI3,Server,HP,ProLiant DL380,Business Intelligence,Kyle Dawson,Data Center,Active,2023-08-22,3329.59,6,2029-08-20,1268,Healthy,1928.78,False
+BDA-00225,NC29-6478-VWJ2,Desktop,HP,ProDesk 600,IT Operations,Stacey Collins,Fort Worth Campus,Active,2021-12-18,1559.21,5,2026-12-17,291,Healthy,249.52,True
+BDA-00226,MN08-5126-NPU8,Mobile,Samsung,Galaxy S24,Business Intelligence,Edgar Moore,Fort Worth Campus,Retired,2022-07-22,796.96,3,2025-07-21,-223,Critical,0.0,True
+BDA-00227,AR41-6740-WOK8,Mobile,Samsung,Galaxy S24,Finance,Alex Andrews,Remote,Active,2023-08-09,881.96,3,2026-08-08,160,Warning,129.39,True
+BDA-00228,OD45-4444-EQF8,Desktop,Lenovo,ThinkCentre M90,Cybersecurity,Daniel Lopez,Arlington HQ,Active,2021-09-23,1393.1,5,2026-09-22,205,Healthy,157.33,True
+BDA-00229,XG51-9888-EQJ5,Server,HP,ProLiant DL380,Business Intelligence,Geoffrey Hayes,Dallas Campus,Active,2022-04-19,6163.92,6,2028-04-17,778,Healthy,2192.46,False
+BDA-00230,IQ71-6724-DQZ6,Laptop,Lenovo,ThinkCentre M90,Revenue Cycle,Jacqueline Lopez,Arlington HQ,Active,2025-11-18,1883.77,4,2029-11-17,1357,Healthy,1750.96,False
+BDA-00231,XU70-1371-HQF8,Server,IBM,System x3650,IT Operations,Patricia Wilson,Dallas Campus,Active,2024-03-08,9102.8,6,2030-03-07,1467,Healthy,6099.69,False
+BDA-00232,WH66-5590-KXQ7,Mobile,Apple,MacBook Pro 14,Finance,Andrew Vargas,Dallas Campus,Active,2021-03-30,693.06,3,2024-03-29,-702,Critical,0.0,True
+BDA-00233,RG63-4398-TFN4,Mobile,Google,Pixel 8,Human Resources,Matthew Lopez,Remote,In-Repair,2025-04-06,697.61,3,2028-04-05,766,Healthy,488.15,False
+BDA-00234,AW13-6076-HOU3,Laptop,Microsoft,Surface Pro 9,Cybersecurity,Christopher Bradford,Remote,Active,2022-10-24,1273.77,4,2026-10-23,236,Healthy,206.63,True
+BDA-00235,GJ23-6558-VKQ2,Laptop,Dell,PowerEdge R750,Human Resources,Ashley Steele,Remote,Active,2025-02-22,2353.02,4,2029-02-21,1088,Healthy,1753.89,False
+BDA-00236,PV75-5658-EDY1,Laptop,Lenovo,ThinkCentre M90,Supply Chain,Shannon Miller,Dallas Campus,Retired,2023-08-10,1285.48,4,2027-08-09,526,Healthy,463.69,False
+BDA-00237,UO95-4345-FML1,Mobile,Apple,MacBook Pro 14,Human Resources,Robert Estrada,Arlington HQ,Active,2025-03-11,1118.94,3,2028-03-10,740,Healthy,756.43,False
+BDA-00238,OC42-6674-QSJ2,Mobile,Apple,iPhone 15 Pro,Cybersecurity,Kenneth Lee,Arlington HQ,Active,2021-06-25,632.29,3,2024-06-24,-615,Critical,0.0,True
+BDA-00239,DI92-4148-AUO9,Server,Dell,PowerEdge R750,Human Resources,Andrew Adams,Fort Worth Campus,Active,2025-11-08,4092.26,6,2031-11-07,2077,Healthy,3881.25,False
+BDA-00240,AX42-8789-LUQ3,Desktop,Dell,Latitude 5540,Supply Chain,Thomas Ferguson,Arlington HQ,Active,2024-02-17,1286.73,5,2029-02-15,1082,Healthy,763.23,False
+BDA-00241,JZ78-9800-DBU4,Mobile,Google,Pixel 8,Finance,Mark Huang,Arlington HQ,Active,2023-04-09,1199.68,3,2026-04-08,38,Critical,42.43,True
+BDA-00242,RX92-6676-FKP0,Mobile,Google,Pixel 8,Business Intelligence,Deborah Hines,Data Center,Active,2024-10-14,1177.9,3,2027-10-14,592,Healthy,637.19,False
+BDA-00243,ZC78-5265-KLL6,Laptop,Apple,iPhone 15 Pro,Cybersecurity,Victoria Sullivan,Dallas Campus,Active,2025-12-08,2126.45,4,2029-12-07,1377,Healthy,2005.65,False
+BDA-00244,GO79-4543-ITJ9,Desktop,Dell,OptiPlex 7090,IT Operations,Courtney Brown,Arlington HQ,Active,2022-11-23,964.95,5,2027-11-22,631,Healthy,334.07,False
+BDA-00245,QH54-3766-GMH3,Desktop,HP,ProLiant DL380,Clinical Informatics,Terri Graham,Fort Worth Campus,In-Repair,2020-05-31,1222.68,5,2025-05-30,-275,Critical,0.0,True
+BDA-00246,YL60-1688-XOI8,Server,Dell,OptiPlex 7090,Clinical Informatics,Anna Oconnor DVM,Data Center,Active,2025-12-23,8625.2,6,2031-12-22,2122,Healthy,8357.57,False
+BDA-00247,HP40-8863-YSL5,Laptop,Microsoft,Surface Pro 9,Human Resources,Justin Parker,Dallas Campus,Active,2024-12-07,2025.08,4,2028-12-06,1011,Healthy,1402.72,False
+BDA-00248,NB32-2387-QPP3,Server,IBM,System x3650,IT Operations,Amy Larson,Arlington HQ,Active,2026-01-23,8773.08,6,2032-01-22,2153,Healthy,8624.96,False
+BDA-00249,HS78-0701-MAB5,Server,IBM,System x3650,Business Intelligence,Kristina Howard,Data Center,Active,2023-10-01,7482.34,6,2029-09-29,1308,Healthy,4470.97,False
+BDA-00250,TG11-2070-NXZ0,Server,IBM,System x3650,Supply Chain,Allen Murphy,Dallas Campus,Active,2020-06-22,9164.92,6,2026-06-21,112,Warning,474.66,True
+BDA-00251,UA39-2635-PPR7,Server,HP,EliteBook 840,IT Operations,Lindsay Martin,Dallas Campus,Active,2024-07-22,7358.26,6,2030-07-21,1603,Healthy,5387.33,False
+BDA-00252,TW50-5277-RWE1,Desktop,HP,ProLiant DL380,Human Resources,Andrea Taylor,Fort Worth Campus,Active,2023-11-25,983.18,5,2028-11-23,998,Healthy,537.96,False
+BDA-00253,VN44-9570-JDV6,Server,HP,EliteBook 840,Cybersecurity,Morgan Parsons,Data Center,Active,2022-03-04,5872.04,6,2028-03-02,732,Healthy,1965.39,False
+BDA-00254,PD56-8588-HFJ7,Mobile,Apple,iPhone 15 Pro,Supply Chain,Jason Pearson,Dallas Campus,Active,2026-01-03,440.48,3,2029-01-02,1038,Healthy,417.57,False
+BDA-00255,DL79-9155-HIG8,Mobile,Google,Pixel 8,Clinical Informatics,Curtis Hutchinson,Dallas Campus,Active,2023-07-11,1147.0,3,2026-07-10,131,Warning,137.91,True
+BDA-00256,DI73-3041-UHM6,Server,Dell,Latitude 5540,Supply Chain,Charlene Sparks,Data Center,Active,2022-12-21,10911.68,6,2028-12-19,1024,Healthy,5106.06,False
+BDA-00257,RD35-4965-VVW0,Mobile,Apple,MacBook Pro 14,Business Intelligence,Teresa Mitchell,Data Center,Active,2020-11-15,592.58,3,2023-11-15,-837,Critical,0.0,True
+BDA-00258,CN27-7158-QRY0,Server,Dell,Latitude 5540,Revenue Cycle,Sean Chan,Remote,Active,2021-07-29,10585.65,6,2027-07-28,514,Healthy,2490.03,False
+BDA-00259,LC37-7447-JQU8,Mobile,Samsung,Galaxy S24,Finance,Dawn Howard,Remote,Active,2024-07-14,611.58,3,2027-07-14,500,Healthy,279.49,False
+BDA-00260,GQ43-3704-EUM3,Server,HP,ProDesk 600,IT Operations,Kevin Davis,Remote,Active,2021-07-24,8056.35,6,2027-07-23,509,Healthy,1876.69,False
+BDA-00261,BQ44-8472-QHL5,Server,IBM,System x3650,Finance,Daniel Martinez,Remote,Active,2023-09-21,9879.64,6,2029-09-19,1298,Healthy,5858.36,False
+BDA-00262,BG46-3679-CWW9,Server,IBM,System x3650,Human Resources,Jennifer Johnson,Arlington HQ,Active,2024-09-27,10154.08,6,2030-09-26,1670,Healthy,7744.72,False
+BDA-00263,UM04-4825-NOW2,Server,IBM,System x3650,Human Resources,Carrie Mclaughlin,Dallas Campus,Active,2023-06-03,6612.48,6,2029-06-01,1188,Healthy,3589.11,False
+BDA-00264,GS13-1584-DUN1,Laptop,Dell,Latitude 5540,Human Resources,Ryan Valdez,Fort Worth Campus,Active,2024-09-24,1682.87,4,2028-09-23,937,Healthy,1080.45,False
+BDA-00265,SQ25-5132-YRT7,Desktop,Lenovo,ThinkPad X1 Carbon,Cybersecurity,Cindy Crawford,Data Center,Active,2023-12-03,1071.55,5,2028-12-01,1006,Healthy,591.0,False
+BDA-00266,AY74-0759-QRR2,Server,IBM,System x3650,Supply Chain,Shannon Brown,Data Center,Active,2020-10-05,10341.74,6,2026-10-04,217,Healthy,1031.11,True
+BDA-00267,LE77-4312-ANR8,Server,HP,ProLiant DL380,Finance,Jason Anthony,Remote,Active,2025-05-25,10170.79,6,2031-05-24,1910,Healthy,8871.31,False
+BDA-00268,NS17-8295-ORP0,Laptop,Microsoft,Surface Pro 9,Revenue Cycle,Jonathon Bridges,Data Center,Active,2021-01-24,2026.38,4,2025-01-23,-402,Critical,0.0,True
+BDA-00269,MO71-4343-IEL7,Mobile,Apple,iPhone 15 Pro,Human Resources,Marissa Noble,Dallas Campus,Active,2023-10-31,1158.56,3,2026-10-30,243,Healthy,257.72,True
+BDA-00270,GA24-1270-KOR0,Laptop,HP,EliteBook 840,Supply Chain,Donna Hoffman,Fort Worth Campus,Active,2023-12-25,1502.03,4,2027-12-24,663,Healthy,682.65,False
+BDA-00271,JG37-9456-EWJ1,Desktop,HP,ProLiant DL380,Supply Chain,Bridget Norman,Arlington HQ,Active,2026-01-27,1222.42,5,2031-01-26,1792,Healthy,1200.33,False
+BDA-00272,NW71-6391-HWV3,Server,IBM,System x3650,Business Intelligence,Heidi Collins,Fort Worth Campus,Retired,2021-01-15,7136.97,6,2027-01-14,319,Healthy,1043.76,True
+BDA-00273,UA07-6136-EEG5,Server,IBM,System x3650,Revenue Cycle,James Ramos,Data Center,Active,2024-08-19,11616.04,6,2030-08-18,1631,Healthy,8653.06,False
+BDA-00274,ZB77-7841-JXL8,Server,IBM,System x3650,Clinical Informatics,Erin Sanchez,Fort Worth Campus,Active,2020-08-22,9344.11,6,2026-08-21,173,Warning,744.03,True
+BDA-00275,YE31-3553-RKG2,Mobile,Samsung,Galaxy S24,Cybersecurity,Adam Walker,Data Center,In-Repair,2025-03-17,1036.32,3,2028-03-16,746,Healthy,706.25,False
+BDA-00276,XS04-0529-SVP4,Server,HP,EliteBook 840,Business Intelligence,John Murillo,Remote,Active,2025-10-23,11591.48,6,2031-10-22,2061,Healthy,10909.16,False
+BDA-00277,XJ02-6479-CBS5,Desktop,HP,EliteBook 840,Revenue Cycle,Sara Phillips,Arlington HQ,Active,2024-07-03,1130.85,5,2029-07-02,1219,Healthy,755.6,False
+BDA-00278,YL35-6797-UFN0,Server,IBM,System x3650,Clinical Informatics,Monica Jones,Dallas Campus,Active,2020-05-07,5440.19,6,2026-05-06,66,Critical,167.56,True
+BDA-00279,HY44-5924-AAF1,Server,Dell,Latitude 5540,Clinical Informatics,Samuel Nicholson,Dallas Campus,Active,2023-01-26,11146.66,6,2029-01-24,1060,Healthy,5399.12,False
+BDA-00280,SF63-3530-XNI6,Desktop,Lenovo,ThinkPad X1 Carbon,IT Operations,Shawn Watson,Arlington HQ,Active,2024-12-13,1460.83,5,2029-12-12,1382,Healthy,1106.47,False
+BDA-00281,SG73-3742-YHY8,Laptop,HP,EliteBook 840,Human Resources,Pamela Harvey,Remote,Active,2023-12-16,2297.1,4,2027-12-15,654,Healthy,1029.84,False
+BDA-00282,SO14-0878-ISW5,Mobile,Samsung,Galaxy S24,Revenue Cycle,Timothy Nelson,Fort Worth Campus,Active,2020-06-22,447.33,3,2023-06-22,-983,Critical,0.0,True
+BDA-00283,CK47-6981-ANC3,Laptop,Microsoft,Surface Pro 9,IT Operations,Matthew Trujillo,Dallas Campus,Active,2022-02-16,2223.93,4,2026-02-15,-14,Critical,0.0,True
+BDA-00284,VG20-9303-XGB7,Laptop,Apple,iPhone 15 Pro,Human Resources,Stephen Bauer,Fort Worth Campus,Active,2020-07-06,815.75,4,2024-07-05,-604,Critical,0.0,True
+BDA-00285,YK32-8941-NQC6,Laptop,Lenovo,ThinkCentre M90,Supply Chain,Crystal Santiago,Data Center,Active,2021-12-10,2311.74,4,2025-12-09,-82,Critical,0.0,True
+BDA-00286,MH75-0179-UMJ8,Desktop,Lenovo,ThinkCentre M90,Revenue Cycle,Robert Bailey,Dallas Campus,Active,2022-06-19,996.82,5,2027-06-18,474,Healthy,259.41,False
+BDA-00287,RE83-2658-OSC5,Mobile,Google,Pixel 8,Human Resources,Dr. Michael Stafford MD,Arlington HQ,Active,2022-10-31,1032.61,3,2025-10-30,-122,Critical,0.0,True
+BDA-00288,HC16-5107-KZW0,Desktop,Dell,PowerEdge R750,Business Intelligence,Richard Khan,Remote,Active,2020-03-25,704.09,5,2025-03-24,-342,Critical,0.0,True
+BDA-00289,DA39-2334-HYK6,Laptop,HP,EliteBook 840,Supply Chain,Victoria Shea,Fort Worth Campus,In-Repair,2024-02-10,811.61,4,2028-02-09,710,Healthy,394.97,False
+BDA-00290,CV73-1960-QYQ9,Mobile,Apple,iPhone 15 Pro,Revenue Cycle,Anthony Pham,Fort Worth Campus,Active,2021-12-23,978.31,3,2024-12-22,-434,Critical,0.0,True
+BDA-00291,OL95-5736-QGG2,Laptop,Lenovo,ThinkCentre M90,Clinical Informatics,Barbara Duncan,Arlington HQ,Active,2021-05-22,1591.17,4,2025-05-21,-284,Critical,0.0,True
+BDA-00292,UA27-3007-XSF3,Desktop,HP,ProLiant DL380,Revenue Cycle,Shawna Moore,Arlington HQ,Active,2024-03-06,1728.76,5,2029-03-05,1100,Healthy,1042.46,False
+BDA-00293,JC56-6901-DJF6,Server,IBM,System x3650,Clinical Informatics,William Roberts,Dallas Campus,Active,2025-02-24,7094.81,6,2031-02-23,1820,Healthy,5896.96,False
+BDA-00294,DR75-9259-CKI0,Server,HP,ProLiant DL380,Supply Chain,Sara Scott,Data Center,Active,2022-12-29,10430.43,6,2028-12-27,1032,Healthy,4918.94,False
+BDA-00295,YF67-1369-GEP5,Desktop,Lenovo,ThinkPad X1 Carbon,Supply Chain,William Scott,Data Center,Active,2021-09-07,693.72,5,2026-09-06,189,Healthy,72.27,True
+BDA-00296,SE90-1513-DON9,Laptop,Dell,PowerEdge R750,Clinical Informatics,Daniel Velazquez,Data Center,Active,2022-03-17,1079.71,4,2026-03-16,15,Critical,11.82,True
+BDA-00297,GX81-8572-UVU9,Mobile,Apple,MacBook Pro 14,Supply Chain,Derrick Davis,Arlington HQ,Active,2025-09-16,756.39,3,2028-09-15,929,Healthy,641.8,False
+BDA-00298,CC61-2955-BKE2,Laptop,Apple,MacBook Pro 14,Business Intelligence,Danny Bailey,Remote,Active,2021-12-15,1749.96,4,2025-12-14,-77,Critical,0.0,True
+BDA-00299,NI45-9601-IPD4,Server,IBM,System x3650,Business Intelligence,Michael Lewis,Fort Worth Campus,Active,2024-11-20,9712.24,6,2030-11-19,1724,Healthy,7647.03,False
+BDA-00300,RS07-3919-LXG9,Laptop,Dell,OptiPlex 7090,Cybersecurity,Matthew Mullen,Arlington HQ,Active,2023-08-30,902.43,4,2027-08-29,546,Healthy,337.87,False
+BDA-00301,LW39-6572-EMV3,Laptop,Apple,MacBook Pro 14,Revenue Cycle,Jennifer Wilson,Remote,Active,2020-04-10,1030.23,4,2024-04-09,-691,Critical,0.0,True
+BDA-00302,PA65-0662-VDA2,Mobile,Samsung,Galaxy S24,Supply Chain,Andrew Jenkins,Remote,Active,2024-04-05,946.18,3,2027-04-05,400,Healthy,346.05,False
+BDA-00303,UW88-9727-JWZ9,Desktop,Lenovo,ThinkCentre M90,Finance,David Villa,Dallas Campus,Retired,2022-08-31,1071.67,5,2027-08-30,547,Healthy,321.72,False
+BDA-00304,GG52-2903-WVO0,Desktop,Lenovo,ThinkPad X1 Carbon,IT Operations,Mike Myers,Arlington HQ,Retired,2025-11-12,1155.6,5,2030-11-11,1716,Healthy,1086.63,False
+BDA-00305,EP90-9310-BRM1,Mobile,Google,Pixel 8,Clinical Informatics,Tammy Wilson,Dallas Campus,Active,2025-05-30,524.1,3,2028-05-29,820,Healthy,392.57,False
+BDA-00306,GC31-8629-ZOK6,Desktop,Lenovo,ThinkPad X1 Carbon,IT Operations,Michael Stephens,Remote,Active,2021-01-29,1723.49,5,2026-01-28,-32,Critical,0.0,True
+BDA-00307,ZN79-2144-HDS4,Laptop,HP,EliteBook 840,Finance,Albert Copeland,Arlington HQ,Active,2024-12-16,1558.95,4,2028-12-15,1020,Healthy,1089.45,False
+BDA-00308,UO75-7593-OQJ1,Laptop,HP,ProLiant DL380,IT Operations,Charles Howard,Remote,Active,2024-12-03,1717.59,4,2028-12-02,1007,Healthy,1185.03,False
+BDA-00309,AQ26-1487-ICM7,Laptop,HP,ProLiant DL380,Revenue Cycle,Angie Kelly,Dallas Campus,Active,2023-07-25,2043.58,4,2027-07-24,510,Healthy,714.76,False
+BDA-00310,QX10-6132-HLO3,Server,IBM,System x3650,Clinical Informatics,Sharon Jones MD,Fort Worth Campus,Active,2024-09-24,11871.26,6,2030-09-23,1667,Healthy,9038.19,False
+BDA-00311,OA34-6145-PPD5,Desktop,HP,ProDesk 600,Revenue Cycle,Katherine Garcia,Arlington HQ,Active,2022-11-18,1310.0,5,2027-11-17,626,Healthy,449.94,False
+BDA-00312,FT43-7876-EWG0,Desktop,Lenovo,ThinkCentre M90,Supply Chain,Brian Stephens,Arlington HQ,Retired,2025-08-14,1729.9,5,2030-08-13,1626,Healthy,1541.4,False
+BDA-00313,FW69-5580-EBF3,Mobile,Google,Pixel 8,Business Intelligence,Lisa Johnson,Remote,Active,2024-04-04,701.17,3,2027-04-04,399,Healthy,255.8,False
+BDA-00314,HZ02-1683-QRV2,Mobile,Apple,MacBook Pro 14,Revenue Cycle,Sandra Garcia,Dallas Campus,Active,2021-12-15,1131.79,3,2024-12-14,-442,Critical,0.0,True
+BDA-00315,YB48-3007-YYO5,Mobile,Samsung,Galaxy S24,Business Intelligence,Matthew Warren,Dallas Campus,Active,2021-12-06,664.21,3,2024-12-05,-451,Critical,0.0,True
+BDA-00316,BK54-5709-FUB6,Laptop,Apple,iPhone 15 Pro,Finance,Tiffany Barnes MD,Data Center,Active,2024-10-04,1123.82,4,2028-10-03,947,Healthy,729.21,False
+BDA-00317,FT23-9337-XCD8,Server,HP,ProLiant DL380,IT Operations,Matthew Price,Arlington HQ,Active,2023-11-19,9855.27,6,2029-11-17,1357,Healthy,6109.23,False
+BDA-00318,EQ03-1072-EWR1,Desktop,HP,EliteBook 840,Cybersecurity,Kenneth Rodriguez,Fort Worth Campus,Retired,2023-08-06,618.4,5,2028-08-04,887,Healthy,300.78,False
+BDA-00319,NP65-4582-QZX1,Desktop,Lenovo,ThinkPad X1 Carbon,Supply Chain,Robert Lane,Dallas Campus,Active,2021-08-02,1444.52,5,2026-08-01,153,Warning,122.01,True
+BDA-00320,AD05-3085-KGL6,Mobile,Apple,iPhone 15 Pro,Revenue Cycle,Jordan Jones,Remote,Active,2021-09-18,918.98,3,2024-09-17,-530,Critical,0.0,True
+BDA-00321,RV61-2351-KPB5,Server,HP,ProDesk 600,Supply Chain,Samuel Hodge,Remote,Active,2023-01-05,11831.87,6,2029-01-03,1039,Healthy,5617.64,False
+BDA-00322,QN31-7541-WND3,Mobile,Samsung,Galaxy S24,Cybersecurity,Catherine Zuniga,Fort Worth Campus,Active,2020-07-21,850.02,3,2023-07-21,-954,Critical,0.0,True
+BDA-00323,NK91-5391-LOS4,Desktop,Lenovo,ThinkPad X1 Carbon,IT Operations,Devin Porter,Fort Worth Campus,Active,2025-10-04,1300.84,5,2030-10-03,1677,Healthy,1195.42,False
+BDA-00324,FD37-0113-WOQ7,Mobile,Samsung,Galaxy S24,Clinical Informatics,Randall Allen,Fort Worth Campus,Active,2026-02-07,855.83,3,2029-02-06,1073,Healthy,838.65,False
+BDA-00325,WR02-9751-HOG9,Desktop,HP,ProLiant DL380,Cybersecurity,Kenneth Vance,Fort Worth Campus,Active,2025-10-07,1186.35,5,2030-10-06,1680,Healthy,1092.16,False
+BDA-00326,WY35-1799-QRJ7,Mobile,Samsung,Galaxy S24,Cybersecurity,Wanda Cummings,Dallas Campus,Active,2020-03-05,837.24,3,2023-03-05,-1092,Critical,0.0,True
+BDA-00327,RM64-3577-VGT9,Desktop,Lenovo,ThinkPad X1 Carbon,IT Operations,Derek Russo,Arlington HQ,In-Repair,2020-07-11,1401.86,5,2025-07-10,-234,Critical,0.0,True
+BDA-00328,CX24-3482-UYI1,Laptop,Apple,MacBook Pro 14,Clinical Informatics,Steven Andrade,Arlington HQ,Active,2024-03-29,815.54,4,2028-03-28,758,Healthy,423.68,False
+BDA-00329,IJ49-4785-KUD1,Mobile,Samsung,Galaxy S24,Supply Chain,Fernando Freeman,Remote,Active,2022-01-31,825.77,3,2025-01-30,-395,Critical,0.0,True
+BDA-00330,QQ93-2002-VLC1,Mobile,Apple,MacBook Pro 14,Revenue Cycle,Jacob Smith,Data Center,Retired,2024-11-09,413.71,3,2027-11-09,618,Healthy,233.61,False
+BDA-00331,KH28-8806-UOX0,Mobile,Apple,MacBook Pro 14,Finance,Katherine Thomas,Data Center,Active,2025-08-20,553.55,3,2028-08-19,902,Healthy,456.05,False
+BDA-00332,WH42-9857-TIK5,Server,HP,ProDesk 600,Business Intelligence,Stephanie Scott,Arlington HQ,Active,2023-08-13,6654.25,6,2029-08-11,1259,Healthy,3827.37,False
+BDA-00333,ZO17-3428-ZOP0,Desktop,Lenovo,ThinkPad X1 Carbon,Revenue Cycle,John Thomas,Arlington HQ,Active,2022-12-21,1629.86,5,2027-12-20,659,Healthy,589.25,False
+BDA-00334,HF57-0504-UKF6,Laptop,Dell,OptiPlex 7090,Business Intelligence,Isabella Brady,Remote,Active,2021-09-10,895.4,4,2025-09-09,-173,Critical,0.0,True
+BDA-00335,ZM02-4432-QSS6,Laptop,HP,EliteBook 840,Supply Chain,Kevin Simpson,Remote,Active,2022-03-18,1363.16,4,2026-03-17,16,Critical,15.86,True
+BDA-00336,QJ50-0177-DXY9,Laptop,Microsoft,Surface Pro 9,Clinical Informatics,Tracey Payne,Dallas Campus,In-Repair,2022-07-26,1976.89,4,2026-07-25,146,Warning,198.91,True
+BDA-00337,MX56-3868-WPJ0,Mobile,Samsung,Galaxy S24,Finance,Jodi Carlson,Fort Worth Campus,Active,2023-09-17,850.81,3,2026-09-16,199,Healthy,155.1,True
+BDA-00338,QL01-1284-VGD0,Laptop,HP,ProDesk 600,IT Operations,Anne Sanford,Dallas Campus,Active,2024-12-20,2078.83,4,2028-12-19,1024,Healthy,1458.45,False
+BDA-00339,GB24-8414-OOP6,Mobile,Apple,iPhone 15 Pro,Human Resources,Shirley Williamson,Data Center,Active,2021-04-18,1067.72,3,2024-04-17,-683,Critical,0.0,True
+BDA-00340,KG29-5783-LMI2,Mobile,Google,Pixel 8,Business Intelligence,Christopher Mcgee,Dallas Campus,Active,2023-11-22,951.45,3,2026-11-21,265,Healthy,230.75,True
+BDA-00341,YS30-7297-RWP1,Laptop,Microsoft,Surface Pro 9,IT Operations,James Jordan,Arlington HQ,Active,2020-11-06,2225.75,4,2024-11-05,-481,Critical,0.0,True
+BDA-00342,MO70-0740-SSW1,Server,IBM,System x3650,Cybersecurity,Patricia Myers,Arlington HQ,Active,2021-08-09,10051.93,6,2027-08-08,525,Healthy,2414.94,False
+BDA-00343,HM20-5592-LNR3,Mobile,Samsung,Galaxy S24,Cybersecurity,David Ellis,Data Center,In-Repair,2024-12-12,745.48,3,2027-12-12,651,Healthy,443.41,False
+BDA-00344,KM14-4646-VRA8,Mobile,Apple,iPhone 15 Pro,Clinical Informatics,Kyle Love,Arlington HQ,Active,2023-11-01,523.38,3,2026-10-31,244,Healthy,116.9,True
+BDA-00345,CM79-2436-NNZ4,Desktop,Lenovo,ThinkCentre M90,Cybersecurity,Patty Day,Fort Worth Campus,Active,2025-02-04,606.23,5,2030-02-03,1435,Healthy,476.77,False
+BDA-00346,VW04-6310-TSK7,Server,HP,ProDesk 600,Revenue Cycle,Sherri Lopez,Arlington HQ,Active,2022-08-08,4686.53,6,2028-08-06,889,Healthy,1904.34,False
+BDA-00347,GM66-1776-PJO4,Mobile,Google,Pixel 8,Finance,Dr. Scott Cook,Arlington HQ,Active,2020-06-16,843.38,3,2023-06-16,-989,Critical,0.0,True
+BDA-00348,SL02-4854-QDR5,Server,HP,EliteBook 840,Revenue Cycle,Jill Cunningham,Remote,Active,2023-05-17,3762.3,6,2029-05-15,1171,Healthy,2012.91,False
+BDA-00349,FK19-2372-VSU7,Desktop,Lenovo,ThinkPad X1 Carbon,Business Intelligence,Erica Wright,Dallas Campus,Active,2024-10-10,961.36,5,2029-10-09,1318,Healthy,694.47,False
+BDA-00350,HK76-8128-OTN6,Mobile,Apple,MacBook Pro 14,Human Resources,Karen Ibarra,Remote,Active,2022-12-02,639.8,3,2025-12-01,-90,Critical,0.0,True
+BDA-00351,BS86-4170-AST0,Laptop,Lenovo,ThinkCentre M90,Clinical Informatics,Nicholas Whitaker,Remote,Active,2022-09-28,1132.43,4,2026-09-27,210,Healthy,163.55,True
+BDA-00352,FP65-4700-OMU8,Laptop,HP,ProDesk 600,IT Operations,Vanessa Lyons,Remote,Active,2025-01-20,1854.33,4,2029-01-19,1055,Healthy,1340.3,False
+BDA-00353,JV07-7585-XJR5,Server,HP,ProDesk 600,Business Intelligence,Erin Myers,Data Center,Active,2021-01-14,5885.99,6,2027-01-13,318,Healthy,858.12,True
+BDA-00354,BY36-6258-QUL8,Desktop,HP,ProDesk 600,Human Resources,Kendra Edwards,Remote,Retired,2025-03-20,949.74,5,2030-03-19,1479,Healthy,769.8,False
+BDA-00355,WH52-0704-SDT4,Mobile,Google,Pixel 8,Cybersecurity,Janice Gonzalez,Remote,Active,2021-02-05,1028.69,3,2024-02-05,-755,Critical,0.0,True
+BDA-00356,KV27-7039-CKO4,Server,Dell,PowerEdge R750,Clinical Informatics,Robert Kelley,Data Center,Retired,2024-02-27,4619.34,6,2030-02-25,1457,Healthy,3074.29,False
+BDA-00357,YC19-7925-GPT7,Laptop,Apple,MacBook Pro 14,Supply Chain,Clarence Rodriguez,Fort Worth Campus,Active,2026-02-08,917.57,4,2030-02-07,1439,Healthy,904.38,False
+BDA-00358,GZ22-5058-FWX7,Mobile,Google,Pixel 8,Human Resources,Stacy Page,Fort Worth Campus,Active,2025-03-19,926.93,3,2028-03-18,748,Healthy,633.39,False
+BDA-00359,NE69-7839-UUJ8,Mobile,Samsung,Galaxy S24,Supply Chain,Ronald Blevins,Data Center,Active,2023-01-17,720.64,3,2026-01-16,-44,Critical,0.0,True
+BDA-00360,CK34-5197-XXT1,Mobile,Google,Pixel 8,Cybersecurity,Christine Parker,Data Center,Active,2024-04-09,1131.52,3,2027-04-09,404,Healthy,417.96,False
+BDA-00361,EI97-3293-DRS8,Laptop,HP,ProLiant DL380,Cybersecurity,Megan Nguyen,Dallas Campus,Active,2024-04-12,875.3,4,2028-04-11,772,Healthy,463.11,False
+BDA-00362,MA77-8862-BWP6,Mobile,Samsung,Galaxy S24,Finance,Melissa Pena,Arlington HQ,Active,2025-09-15,577.6,3,2028-09-14,928,Healthy,489.57,False
+BDA-00363,OZ07-7723-OHS5,Desktop,HP,ProDesk 600,Business Intelligence,Molly Huff,Remote,Active,2023-01-03,1306.31,5,2028-01-02,672,Healthy,481.57,False
+BDA-00364,HY67-3482-CFX4,Desktop,HP,EliteBook 840,Supply Chain,Eddie Perkins,Arlington HQ,Active,2024-01-21,1704.66,5,2029-01-19,1055,Healthy,985.93,False
+BDA-00365,DG65-1595-XYU2,Laptop,Dell,PowerEdge R750,Human Resources,Elizabeth Baker,Fort Worth Campus,Active,2021-01-05,1574.07,4,2025-01-04,-421,Critical,0.0,True
+BDA-00366,DS17-6952-DHL2,Desktop,Lenovo,ThinkCentre M90,Cybersecurity,Thomas Castillo,Remote,Active,2025-05-03,1466.39,5,2030-05-02,1523,Healthy,1223.9,False
+BDA-00367,DT53-6374-THR0,Mobile,Samsung,Galaxy S24,Revenue Cycle,Sheila Moody,Arlington HQ,Active,2026-02-06,492.07,3,2029-02-05,1072,Healthy,481.74,False
+BDA-00368,HO04-3366-SFD5,Server,IBM,System x3650,Human Resources,Kelly Gray,Dallas Campus,Active,2021-09-08,7967.19,6,2027-09-07,555,Healthy,2023.15,False
+BDA-00369,VS32-3469-JKP8,Server,IBM,System x3650,Supply Chain,Johnny Massey,Dallas Campus,Active,2024-07-12,8667.84,6,2030-07-11,1593,Healthy,6306.58,False
+BDA-00370,IP77-9094-ZTR5,Desktop,Lenovo,ThinkCentre M90,Business Intelligence,Francisco Hernandez,Arlington HQ,Active,2021-09-10,1659.72,5,2026-09-09,192,Healthy,175.63,True
+BDA-00371,AY75-3971-AOW6,Mobile,Google,Pixel 8,Business Intelligence,Maria Manning,Arlington HQ,Active,2023-07-25,564.63,3,2026-07-24,145,Warning,75.1,True
+BDA-00372,RD52-9257-CBT0,Laptop,Microsoft,Surface Pro 9,Human Resources,Brenda Green,Fort Worth Campus,Active,2026-01-11,1577.84,4,2030-01-10,1411,Healthy,1524.92,False
+BDA-00373,VY07-2238-ALA3,Server,IBM,System x3650,Cybersecurity,Sandra Meyer,Data Center,Active,2025-10-06,6532.9,6,2031-10-05,2044,Healthy,6097.67,False
+BDA-00374,IS32-6511-ZFE6,Laptop,Lenovo,ThinkCentre M90,Supply Chain,Kristine Young,Data Center,Active,2025-05-20,1945.1,4,2029-05-19,1175,Healthy,1565.67,False
+BDA-00375,UC29-4419-JJH8,Server,IBM,System x3650,Human Resources,Philip Montoya,Fort Worth Campus,Active,2025-08-01,5748.42,6,2031-07-31,1978,Healthy,5192.33,False
+BDA-00376,AL03-1024-NYS1,Desktop,HP,ProLiant DL380,Human Resources,Ivan Hernandez,Data Center,Active,2025-04-08,1315.71,5,2030-04-07,1498,Healthy,1080.12,False
+BDA-00377,JR57-0625-BDI9,Mobile,Samsung,Galaxy S24,Supply Chain,Nathaniel Johnson,Data Center,Active,2023-12-27,916.21,3,2026-12-26,300,Healthy,251.47,True
+BDA-00378,KQ31-9242-LTS9,Desktop,Lenovo,ThinkPad X1 Carbon,Supply Chain,Heather Carpenter,Fort Worth Campus,Active,2021-07-17,977.5,5,2026-07-16,137,Warning,74.0,True
+BDA-00379,BL86-5568-FJR1,Mobile,Google,Pixel 8,Cybersecurity,Jason Duncan,Arlington HQ,Active,2021-07-09,556.1,3,2024-07-08,-601,Critical,0.0,True
+BDA-00380,PM03-3933-FNV1,Mobile,Google,Pixel 8,Business Intelligence,Jessica Weeks,Remote,Active,2025-01-16,1071.91,3,2028-01-16,686,Healthy,671.81,False
+BDA-00381,GQ91-1714-PKQ2,Mobile,Apple,MacBook Pro 14,IT Operations,Daniel Weaver,Dallas Campus,Active,2021-03-14,619.88,3,2024-03-13,-718,Critical,0.0,True
+BDA-00382,UN61-6814-TKQ0,Server,Dell,OptiPlex 7090,Supply Chain,Hannah Wilson,Data Center,Active,2020-04-06,8154.43,6,2026-04-05,35,Critical,135.81,True
+BDA-00383,VH48-5079-BFH9,Server,IBM,System x3650,IT Operations,Brent Schmitt,Remote,Active,2023-05-24,11907.98,6,2029-05-22,1178,Healthy,6409.06,False
+BDA-00384,AU62-1137-LSL9,Laptop,HP,ProDesk 600,IT Operations,Joyce Jones,Remote,Active,2024-06-10,2265.74,4,2028-06-09,831,Healthy,1290.28,False
+BDA-00385,GA78-2744-JRK8,Laptop,Apple,MacBook Pro 14,Clinical Informatics,David Kim,Dallas Campus,Active,2022-10-27,1799.47,4,2026-10-26,239,Healthy,295.6,True
+BDA-00386,VM39-7569-EGW1,Server,IBM,System x3650,Human Resources,Michael Davis,Data Center,Active,2024-04-23,4859.58,6,2030-04-22,1513,Healthy,3358.35,False
+BDA-00387,EJ16-8993-UKR2,Desktop,Dell,PowerEdge R750,Cybersecurity,Jacob Taylor,Data Center,Active,2024-07-09,1246.52,5,2029-07-08,1225,Healthy,836.99,False
+BDA-00388,BK72-4294-TKN6,Server,IBM,System x3650,Revenue Cycle,Audrey Bell,Data Center,Active,2024-06-27,10722.15,6,2030-06-26,1578,Healthy,7727.87,False
+BDA-00389,GD57-5008-WVT9,Laptop,HP,ProDesk 600,IT Operations,Jeffrey Rogers,Fort Worth Campus,Active,2026-02-19,1015.71,4,2030-02-18,1450,Healthy,1008.76,False
+BDA-00390,SS90-1517-XDW5,Desktop,Dell,Latitude 5540,Cybersecurity,Katherine Wagner,Dallas Campus,Active,2022-01-22,1411.48,5,2027-01-21,326,Healthy,252.93,True
+BDA-00391,DI78-6278-QJT7,Mobile,Apple,iPhone 15 Pro,Business Intelligence,Paul Nguyen,Remote,Active,2022-01-21,906.9,3,2025-01-20,-405,Critical,0.0,True
+BDA-00392,DO93-5037-IRV8,Laptop,Apple,iPhone 15 Pro,Cybersecurity,Patricia Coleman,Remote,Retired,2020-12-18,1356.39,4,2024-12-17,-439,Critical,0.0,True
+BDA-00393,UI35-1223-AAW8,Laptop,Dell,PowerEdge R750,Supply Chain,Katherine Davis,Fort Worth Campus,Active,2023-09-29,2152.65,4,2027-09-28,576,Healthy,850.16,False
+BDA-00394,LE79-8095-DWM8,Mobile,Apple,iPhone 15 Pro,Clinical Informatics,Teresa Wheeler,Remote,Active,2022-03-14,1062.67,3,2025-03-13,-353,Critical,0.0,True
+BDA-00395,KS98-2532-AMM3,Server,IBM,System x3650,Supply Chain,Mary Wilson,Fort Worth Campus,Active,2025-10-03,9860.29,6,2031-10-02,2041,Healthy,9189.89,False
+BDA-00396,UL23-4305-PPP6,Laptop,Dell,PowerEdge R750,Supply Chain,Shelby Suarez,Arlington HQ,Active,2026-02-16,2258.01,4,2030-02-15,1447,Healthy,2237.92,False
+BDA-00397,HL26-1555-DFM1,Mobile,Samsung,Galaxy S24,Business Intelligence,Laurie Mendoza,Dallas Campus,Retired,2025-02-24,1127.53,3,2028-02-24,725,Healthy,746.8,False
+BDA-00398,HR60-2086-AKP8,Server,Dell,OptiPlex 7090,Finance,Thomas Howard,Fort Worth Campus,Active,2021-04-18,6346.59,6,2027-04-17,412,Healthy,1197.5,False
+BDA-00399,AQ40-7735-NOY2,Desktop,Dell,OptiPlex 7090,Revenue Cycle,Deborah Wheeler,Dallas Campus,Active,2020-06-07,709.44,5,2025-06-06,-268,Critical,0.0,True
+BDA-00400,OS11-5736-UJK8,Laptop,Dell,Latitude 5540,Supply Chain,Katie Harmon,Arlington HQ,Active,2021-04-29,1184.52,4,2025-04-28,-307,Critical,0.0,True
+BDA-00401,TY91-2277-PCJ5,Mobile,Apple,MacBook Pro 14,Cybersecurity,Phillip Mcclure,Arlington HQ,Retired,2024-07-05,737.85,3,2027-07-05,491,Healthy,331.13,False
+BDA-00402,QC27-2521-VDX3,Desktop,HP,EliteBook 840,Clinical Informatics,Andrea Hardy,Remote,Active,2022-06-20,1567.15,5,2027-06-19,475,Healthy,408.68,False
+BDA-00403,MN25-7585-QLM7,Laptop,Lenovo,ThinkCentre M90,Revenue Cycle,Rebecca Fisher,Dallas Campus,Active,2021-06-22,2182.73,4,2025-06-21,-253,Critical,0.0,True
+BDA-00404,LG28-7747-DDS9,Desktop,Lenovo,ThinkPad X1 Carbon,Finance,Sarah Brown,Data Center,Active,2021-07-29,1332.38,5,2026-07-28,149,Warning,109.62,True
+BDA-00405,MN26-3859-IAO4,Desktop,HP,ProDesk 600,Clinical Informatics,Kelli Jackson,Dallas Campus,In-Repair,2023-06-19,1339.29,5,2028-06-17,839,Healthy,616.2,False
+BDA-00406,UG67-2653-DJS0,Mobile,Apple,MacBook Pro 14,Finance,Mark Wagner,Dallas Campus,Active,2021-01-01,871.66,3,2024-01-01,-790,Critical,0.0,True
+BDA-00407,TZ83-9665-FCW1,Mobile,Samsung,Galaxy S24,Cybersecurity,Erik Walker,Dallas Campus,Active,2020-05-03,915.7,3,2023-05-03,-1033,Critical,0.0,True
+BDA-00408,NH91-5199-NGM9,Desktop,Lenovo,ThinkCentre M90,IT Operations,Christopher Hodges,Fort Worth Campus,Active,2023-10-18,1328.31,5,2028-10-16,960,Healthy,699.16,False
+BDA-00409,YJ86-2540-FZN4,Desktop,Lenovo,ThinkCentre M90,Revenue Cycle,Gerald Smith,Arlington HQ,Active,2023-08-29,1552.53,5,2028-08-27,910,Healthy,774.67,False
+BDA-00410,JL08-8967-JFM0,Desktop,HP,ProDesk 600,Finance,Katelyn Jones,Dallas Campus,Active,2020-05-04,1312.72,5,2025-05-03,-302,Critical,0.0,True
+BDA-00411,CE72-8321-AQY7,Laptop,Lenovo,ThinkCentre M90,Human Resources,Victoria Wolfe,Remote,Active,2022-10-16,1766.25,4,2026-10-15,228,Healthy,276.85,True
+BDA-00412,RV63-7488-ZEB8,Server,IBM,System x3650,Supply Chain,Stephanie Adams,Arlington HQ,Active,2020-12-01,3607.79,6,2026-11-30,274,Healthy,453.55,True
+BDA-00413,SZ63-1581-OPE8,Server,Dell,Latitude 5540,IT Operations,Tara Harris,Remote,Active,2021-07-01,8657.14,6,2027-06-30,486,Healthy,1925.78,False
+BDA-00414,UG87-2935-ZLN8,Mobile,Samsung,Galaxy S24,Finance,Angela Miller,Data Center,Active,2021-06-26,522.14,3,2024-06-25,-614,Critical,0.0,True
+BDA-00415,OE03-0449-CCW0,Laptop,Lenovo,ThinkPad X1 Carbon,Clinical Informatics,Cathy Glass,Dallas Campus,Active,2021-04-26,1464.24,4,2025-04-25,-310,Critical,0.0,True
+BDA-00416,CB05-1831-KVR4,Laptop,Lenovo,ThinkCentre M90,Clinical Informatics,Elizabeth Morales,Arlington HQ,Active,2024-09-09,2371.87,4,2028-09-08,922,Healthy,1498.45,False
+BDA-00417,SQ78-4191-XKU8,Laptop,Apple,MacBook Pro 14,Revenue Cycle,Virginia Bell DVM,Dallas Campus,Active,2025-12-30,2003.43,4,2029-12-29,1399,Healthy,1919.78,False
+BDA-00418,FC61-4893-ZFT3,Laptop,HP,ProDesk 600,Cybersecurity,Lauren Lopez,Data Center,Active,2021-08-13,2198.26,4,2025-08-12,-201,Critical,0.0,True
+BDA-00419,QN60-2890-CZX1,Server,Dell,OptiPlex 7090,Human Resources,Tyler Villanueva,Fort Worth Campus,Active,2022-07-03,4062.51,6,2028-07-01,853,Healthy,1584.04,False
+BDA-00420,HF05-3597-SHE0,Laptop,Lenovo,ThinkCentre M90,Revenue Cycle,Katherine Barnett,Data Center,Active,2020-08-03,2010.95,4,2024-08-02,-576,Critical,0.0,True
+BDA-00421,JN32-4925-EXN3,Laptop,Apple,iPhone 15 Pro,Cybersecurity,Scott Cruz,Arlington HQ,Active,2023-07-16,1763.71,4,2027-07-15,501,Healthy,606.01,False
+BDA-00422,RE85-3769-QOB0,Server,Dell,OptiPlex 7090,Finance,Lisa Fisher,Data Center,Active,2023-03-17,4038.0,6,2029-03-15,1110,Healthy,2048.02,False
+BDA-00423,TK77-9614-ZJI6,Laptop,Dell,Latitude 5540,Clinical Informatics,Margaret Anderson,Arlington HQ,Active,2022-01-19,1451.07,4,2026-01-18,-42,Critical,0.0,True
+BDA-00424,YS19-6843-QVU7,Desktop,Dell,Latitude 5540,Business Intelligence,Marissa Watson,Dallas Campus,Active,2020-11-24,1099.51,5,2025-11-23,-98,Critical,0.0,True
+BDA-00425,BA24-0105-TMG2,Server,HP,EliteBook 840,Cybersecurity,Erica Rodgers,Arlington HQ,Active,2025-03-06,11117.47,6,2031-03-05,1830,Healthy,9291.19,False
+BDA-00426,LX20-4278-WKX4,Desktop,Dell,PowerEdge R750,IT Operations,Brandi Walker,Remote,Active,2020-10-12,1158.11,5,2025-10-11,-141,Critical,0.0,True
+BDA-00427,NQ85-8532-ERJ4,Server,HP,ProDesk 600,Finance,Richard Wright,Data Center,Active,2023-11-06,6320.27,6,2029-11-04,1344,Healthy,3880.41,False
+BDA-00428,PD30-7158-DPB8,Server,IBM,System x3650,Clinical Informatics,Cassandra Contreras,Remote,Active,2021-12-14,11746.72,6,2027-12-13,652,Healthy,3502.84,False
+BDA-00429,WL41-8051-YGX0,Desktop,Lenovo,ThinkPad X1 Carbon,Human Resources,Eric Brady,Arlington HQ,In-Repair,2023-06-16,628.69,5,2028-06-14,836,Healthy,288.22,False
+BDA-00430,UC37-0089-OTG6,Server,IBM,System x3650,Cybersecurity,Todd Simmons,Arlington HQ,Active,2025-04-19,6386.47,6,2031-04-18,1874,Healthy,5465.58,False
+BDA-00431,LM64-3075-UZI7,Server,Dell,Latitude 5540,Clinical Informatics,Lisa Hernandez,Remote,Active,2024-06-27,3539.06,6,2030-06-26,1578,Healthy,2550.74,False
+BDA-00432,MP24-3817-WDQ5,Desktop,Lenovo,ThinkCentre M90,Finance,Veronica Miller MD,Arlington HQ,In-Repair,2024-06-17,1676.74,5,2029-06-16,1203,Healthy,1105.66,False
+BDA-00433,YR70-9713-SFZ9,Mobile,Google,Pixel 8,Supply Chain,Jasmine Myers,Arlington HQ,Active,2025-06-24,804.34,3,2028-06-23,845,Healthy,620.83,False
+BDA-00434,XI84-3521-ARM9,Mobile,Apple,MacBook Pro 14,Business Intelligence,Jackie Knapp,Dallas Campus,Active,2022-01-22,608.79,3,2025-01-21,-404,Critical,0.0,True
+BDA-00435,TH85-2994-VCK1,Server,HP,ProLiant DL380,Cybersecurity,Sean Jordan,Fort Worth Campus,Active,2025-05-15,5102.5,6,2031-05-14,1900,Healthy,4427.29,False
+BDA-00436,OT66-6855-RCQ1,Desktop,Dell,PowerEdge R750,Finance,Steven Olson,Dallas Campus,Active,2025-04-09,1139.48,5,2030-04-08,1499,Healthy,936.07,False
+BDA-00437,WR60-1424-AAU1,Server,HP,EliteBook 840,Cybersecurity,Michael Martinez,Dallas Campus,Active,2025-10-03,7170.12,6,2031-10-02,2041,Healthy,6682.62,False
+BDA-00438,FL34-9294-BVF8,Laptop,Dell,Latitude 5540,Revenue Cycle,Jennifer Schroeder,Data Center,Active,2020-06-25,2221.07,4,2024-06-24,-615,Critical,0.0,True
+BDA-00439,BU47-3212-QJL8,Server,Dell,Latitude 5540,Clinical Informatics,Miguel Young,Fort Worth Campus,Active,2020-09-09,3440.56,6,2026-09-08,191,Healthy,302.22,True
+BDA-00440,PG07-4000-FDN4,Server,HP,EliteBook 840,IT Operations,Kayla Chapman,Remote,Active,2026-02-26,8003.58,6,2032-02-25,2187,Healthy,7992.62,False
+BDA-00441,ER55-7515-SDK2,Desktop,Dell,OptiPlex 7090,Finance,Adam Ford,Dallas Campus,Active,2025-11-01,674.0,5,2030-10-31,1705,Healthy,629.71,False
+BDA-00442,LZ12-8309-ERJ9,Desktop,Dell,Latitude 5540,Business Intelligence,Jennifer Smith,Fort Worth Campus,Active,2022-06-24,1725.09,5,2027-06-23,479,Healthy,453.65,False
+BDA-00443,NQ63-6972-GOV2,Laptop,Microsoft,Surface Pro 9,Finance,Jessica Walker,Arlington HQ,Retired,2024-01-20,1136.18,4,2028-01-19,689,Healthy,536.59,False
+BDA-00444,AS63-2681-DUR1,Mobile,Apple,MacBook Pro 14,Cybersecurity,Jerry Lee,Arlington HQ,Active,2022-02-22,768.8,3,2025-02-21,-373,Critical,0.0,True
+BDA-00445,RA87-2952-XAG7,Desktop,Lenovo,ThinkCentre M90,Business Intelligence,Dr. James Harris,Remote,Active,2025-02-15,1419.86,5,2030-02-14,1446,Healthy,1125.2,False
+BDA-00446,QA59-5090-DZH8,Desktop,HP,EliteBook 840,Human Resources,Megan Mendoza,Fort Worth Campus,Active,2022-11-23,1660.11,5,2027-11-22,631,Healthy,574.73,False
+BDA-00447,PA29-6778-DDG0,Laptop,Microsoft,Surface Pro 9,Revenue Cycle,Brandon Vaughn,Remote,Active,2025-06-12,1736.17,4,2029-06-11,1198,Healthy,1424.82,False
+BDA-00448,CM24-2344-SZX4,Laptop,Dell,OptiPlex 7090,Business Intelligence,Leslie Shields,Dallas Campus,Active,2021-10-14,1892.51,4,2025-10-13,-139,Critical,0.0,True
+BDA-00449,XC23-9223-MBE9,Desktop,Lenovo,ThinkPad X1 Carbon,Business Intelligence,Darren Rodriguez,Fort Worth Campus,Active,2021-07-01,1537.72,5,2026-06-30,121,Warning,102.94,True
+BDA-00450,RA78-0277-PAL8,Server,IBM,System x3650,Business Intelligence,Adam Reed,Fort Worth Campus,Active,2024-05-09,5869.9,6,2030-05-08,1529,Healthy,4099.42,False
+BDA-00451,VR09-3258-CCC7,Desktop,Dell,OptiPlex 7090,IT Operations,Lucas Johnson,Remote,Active,2021-08-25,1520.21,5,2026-08-24,176,Warning,147.55,True
+BDA-00452,ZG14-0112-VJR9,Desktop,Dell,Latitude 5540,Clinical Informatics,Kimberly Davis,Dallas Campus,Active,2025-07-02,1579.54,5,2030-07-01,1583,Healthy,1370.23,False
+BDA-00453,NJ04-0105-TIC8,Laptop,HP,ProLiant DL380,Business Intelligence,Kimberly Lucero,Fort Worth Campus,In-Repair,2023-03-27,2485.62,4,2027-03-26,390,Healthy,665.21,False
+BDA-00454,YZ51-2512-EZG1,Desktop,Dell,Latitude 5540,Cybersecurity,Veronica Gaines,Fort Worth Campus,In-Repair,2020-12-28,633.85,5,2025-12-27,-64,Critical,0.0,True
+BDA-00455,IQ20-3581-PYK0,Server,IBM,System x3650,Clinical Informatics,Laurie Tyler,Remote,Active,2020-09-10,4580.01,6,2026-09-09,192,Healthy,404.4,True
+BDA-00456,OH43-6941-AOR4,Laptop,Dell,Latitude 5540,Clinical Informatics,Stanley Moses,Data Center,Active,2022-10-29,1694.96,4,2026-10-28,241,Healthy,280.75,True
+BDA-00457,HX61-0427-SXZ9,Laptop,Lenovo,ThinkPad X1 Carbon,Human Resources,Katelyn Walker,Fort Worth Campus,Active,2024-11-11,2361.93,4,2028-11-10,985,Healthy,1594.02,False
+BDA-00458,SE75-8617-CVY8,Server,Dell,Latitude 5540,Human Resources,Mrs. Sharon Cruz,Data Center,Active,2022-08-12,4274.87,6,2028-08-10,893,Healthy,1744.86,False
+BDA-00459,OM40-6083-QDZ6,Laptop,Microsoft,Surface Pro 9,Finance,Ruth Horn,Fort Worth Campus,Active,2020-12-05,1925.64,4,2024-12-04,-452,Critical,0.0,True
+BDA-00460,FP99-3132-PTB1,Laptop,Lenovo,ThinkCentre M90,Cybersecurity,Dr. Heather Burns,Dallas Campus,Retired,2021-02-06,2045.0,4,2025-02-05,-389,Critical,0.0,True
+BDA-00461,BP32-0741-CKZ5,Mobile,Google,Pixel 8,Cybersecurity,Heather Benson DDS,Dallas Campus,Active,2021-06-10,849.58,3,2024-06-09,-630,Critical,0.0,True
+BDA-00462,MD89-8060-SXI1,Server,Dell,PowerEdge R750,Human Resources,Victoria Thomas,Remote,Active,2023-09-28,9196.49,6,2029-09-26,1305,Healthy,5482.64,False
+BDA-00463,VY53-1813-RDE6,Desktop,Dell,PowerEdge R750,IT Operations,Aaron Moore,Data Center,Active,2024-06-30,1793.14,5,2029-06-29,1216,Healthy,1195.18,False
+BDA-00464,ZI20-1148-YAK6,Laptop,HP,ProLiant DL380,Cybersecurity,Valerie Blackwell,Data Center,Active,2024-03-16,1761.44,4,2028-03-15,745,Healthy,899.41,False
+BDA-00465,HB15-8468-DZS4,Mobile,Apple,iPhone 15 Pro,Finance,Victor Washington,Dallas Campus,Active,2023-04-26,655.61,3,2026-04-25,55,Critical,33.36,True
+BDA-00466,DI69-9862-JYO7,Laptop,Lenovo,ThinkCentre M90,IT Operations,Monique Soto,Fort Worth Campus,Active,2025-07-20,1978.4,4,2029-07-19,1236,Healthy,1675.07,False
+BDA-00467,XR69-2930-EIF6,Server,HP,EliteBook 840,IT Operations,Megan York,Arlington HQ,Active,2025-03-25,9593.26,6,2031-03-24,1849,Healthy,8100.54,False
+BDA-00468,WF96-7370-UPY5,Desktop,HP,ProDesk 600,Business Intelligence,Steven Owen,Fort Worth Campus,Active,2022-07-19,721.71,5,2027-07-18,504,Healthy,199.67,False
+BDA-00469,YE46-1051-XMY6,Mobile,Google,Pixel 8,Human Resources,Teresa Williams,Remote,Active,2024-10-03,1076.61,3,2027-10-03,581,Healthy,571.59,False
+BDA-00470,NH19-3944-EWP4,Server,Dell,OptiPlex 7090,Revenue Cycle,Timothy Hill,Arlington HQ,Active,2020-04-26,4530.95,6,2026-04-25,55,Critical,116.81,True
+BDA-00471,VF50-2442-UFF1,Mobile,Apple,MacBook Pro 14,Finance,Leslie Cook,Fort Worth Campus,Active,2026-02-11,890.92,3,2029-02-10,1077,Healthy,876.28,False
+BDA-00472,OF25-7552-GNT7,Mobile,Google,Pixel 8,Business Intelligence,Marissa Lam,Dallas Campus,Active,2022-06-19,747.36,3,2025-06-18,-256,Critical,0.0,True
+BDA-00473,RV86-1466-LKY7,Laptop,Dell,OptiPlex 7090,Clinical Informatics,Jeffrey Scott,Dallas Campus,Active,2024-07-07,1741.99,4,2028-07-06,858,Healthy,1024.21,False
+BDA-00474,WZ02-5991-JWV7,Server,IBM,System x3650,Revenue Cycle,Andrew Spence,Dallas Campus,Active,2022-10-27,6536.12,6,2028-10-25,969,Healthy,2894.5,False
+BDA-00475,LN96-3889-ZVA8,Mobile,Apple,MacBook Pro 14,Cybersecurity,Ashley Reed,Arlington HQ,Active,2020-08-30,635.64,3,2023-08-30,-914,Critical,0.0,True
+BDA-00476,EJ51-5369-OHV6,Mobile,Apple,MacBook Pro 14,IT Operations,Melissa Palmer,Dallas Campus,Active,2020-05-30,633.45,3,2023-05-30,-1006,Critical,0.0,True
+BDA-00477,VG72-8520-VBR2,Laptop,Apple,MacBook Pro 14,Revenue Cycle,Jennifer Owen,Remote,Active,2020-08-04,2321.29,4,2024-08-03,-575,Critical,0.0,True
+BDA-00478,GT28-8160-JGB5,Server,Dell,PowerEdge R750,Business Intelligence,Justin Clark,Dallas Campus,Active,2025-12-10,6433.01,6,2031-12-09,2109,Healthy,6195.24,False
+BDA-00479,WX37-4643-DQV8,Desktop,HP,EliteBook 840,Revenue Cycle,Morgan Davis,Remote,Active,2020-10-30,871.49,5,2025-10-29,-123,Critical,0.0,True
+BDA-00480,OW56-8050-WPL9,Server,IBM,System x3650,Human Resources,Loretta Young,Arlington HQ,Active,2023-03-02,6094.12,6,2029-02-28,1095,Healthy,3049.15,False
+BDA-00481,SC10-7241-LHD0,Mobile,Google,Pixel 8,IT Operations,Alexandra Juarez,Remote,Active,2022-02-24,734.91,3,2025-02-23,-371,Critical,0.0,True
+BDA-00482,OC35-5389-JAT0,Mobile,Google,Pixel 8,Supply Chain,Robert Terrell,Fort Worth Campus,Active,2026-02-15,1122.22,3,2029-02-14,1081,Healthy,1107.88,False
+BDA-00483,SY31-8772-BUA8,Laptop,Microsoft,Surface Pro 9,Finance,Jo Flores,Remote,Active,2025-09-13,2473.43,4,2029-09-12,1291,Healthy,2187.32,False
+BDA-00484,GD26-3419-TDY0,Desktop,Dell,Latitude 5540,IT Operations,Kathleen Hampton,Remote,Active,2024-07-19,1419.75,5,2029-07-18,1235,Healthy,961.08,False
+BDA-00485,WJ56-5720-FEY1,Desktop,Lenovo,ThinkPad X1 Carbon,Revenue Cycle,Michael Maxwell,Fort Worth Campus,In-Repair,2021-04-21,1697.01,5,2026-04-20,50,Critical,47.62,True
+BDA-00486,BZ64-1478-UTJ5,Laptop,Dell,OptiPlex 7090,Business Intelligence,Wendy Carson,Data Center,Active,2024-04-03,1269.54,4,2028-04-02,763,Healthy,663.88,False
+BDA-00487,EZ09-5966-SEF6,Mobile,Apple,iPhone 15 Pro,Finance,Diane Aguirre,Remote,Active,2023-11-27,853.28,3,2026-11-26,270,Healthy,210.84,True
+BDA-00488,WP70-9155-ZNL3,Laptop,Dell,PowerEdge R750,Finance,Gary Davis,Fort Worth Campus,Active,2026-01-31,2296.23,4,2030-01-30,1431,Healthy,2250.65,False
+BDA-00489,GK38-3750-HIC1,Mobile,Samsung,Galaxy S24,Supply Chain,Gabriel Webster,Data Center,Active,2020-10-11,429.97,3,2023-10-11,-872,Critical,0.0,True
+BDA-00490,NQ42-3012-EJX8,Server,HP,EliteBook 840,Business Intelligence,Lisa Callahan,Arlington HQ,Active,2021-08-24,10910.62,6,2027-08-23,540,Healthy,2695.92,False
+BDA-00491,KM89-5639-GDM4,Desktop,Dell,PowerEdge R750,Supply Chain,Jessica Carr,Fort Worth Campus,Active,2021-11-09,624.28,5,2026-11-08,252,Healthy,86.57,True
+BDA-00492,AA12-0944-UXA6,Server,HP,ProDesk 600,Supply Chain,Deborah Fitzpatrick,Arlington HQ,Retired,2021-02-09,5051.62,6,2027-02-08,344,Healthy,796.41,True
+BDA-00493,OH20-7769-SRK6,Server,IBM,System x3650,Cybersecurity,Adam Carpenter,Fort Worth Campus,Active,2022-06-08,8444.81,6,2028-06-06,828,Healthy,3196.43,False
+BDA-00494,FW39-3265-AIG9,Laptop,HP,ProDesk 600,Clinical Informatics,Cynthia Bullock,Remote,Active,2022-10-16,2091.14,4,2026-10-15,228,Healthy,327.77,True
+BDA-00495,ED11-5998-TMH5,Server,Dell,PowerEdge R750,Human Resources,Sophia Rodgers,Arlington HQ,Active,2022-03-08,7561.16,6,2028-03-06,736,Healthy,2544.54,False
+BDA-00496,MW14-7844-HTX4,Desktop,Lenovo,ThinkPad X1 Carbon,Human Resources,Joseph Jones,Dallas Campus,Active,2022-08-20,840.87,5,2027-08-19,536,Healthy,247.37,False
+BDA-00497,DY26-6696-KJR9,Laptop,HP,EliteBook 840,Supply Chain,Paula Horne,Arlington HQ,In-Repair,2021-12-05,1997.88,4,2025-12-04,-87,Critical,0.0,True
+BDA-00498,ZL45-9926-IQZ4,Server,HP,ProDesk 600,Business Intelligence,Linda Sanchez,Arlington HQ,Active,2025-12-27,5177.44,6,2031-12-26,2126,Healthy,5026.24,False
+BDA-00499,LA40-8438-ULD3,Mobile,Google,Pixel 8,Human Resources,Larry Heath,Remote,Active,2022-12-24,679.81,3,2025-12-23,-68,Critical,0.0,True
+BDA-00500,OY00-6256-CUN6,Desktop,HP,ProLiant DL380,Finance,James Hernandez,Fort Worth Campus,Active,2023-04-05,659.58,5,2028-04-03,764,Healthy,276.38,False
