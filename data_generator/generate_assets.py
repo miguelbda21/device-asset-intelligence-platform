@@ -15,9 +15,14 @@ import pandas as pd
 from faker import Faker
 from datetime import date, timedelta
 from dotenv import load_dotenv
+import sys
 
 # ── Load environment variables ────────────────────────
 load_dotenv()
+
+# ── Force project root as working directory ───────────
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # ── Initialize Faker ──────────────────────────────────
 fake = Faker()
