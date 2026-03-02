@@ -231,3 +231,47 @@ http://<EC2-IP>/
 ```
 ---
 # 🧪 API Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET	| /	| Health status
+| GET	| /assets | List all devices
+| GET	| /assets/{tag} | Single device
+| GET | /eol/summary | EOL breakdown
+| GET | /financials/summary | Financial metrics
+| POST | /pipeline/run | Run ETL pipeline
+---
+
+# 🔐 Security Best Practices
+* Enable MFA
+* Restrict RDS to specific IP
+* Do NOT expose secrets in code
+* Use .env file
+* Avoid using root account
+* Monitor EC2 usage (Free Tier limits)
+---
+
+# 💰 Free Tier Monitoring
+* EC2: 750 hours/month (t2.micro)
+* RDS: 750 hours/month (db.t3.micro)
+* S3: < 5GB
+* Delete unused volumes
+---
+
+# 📌 Next Improvements
+* Add HTTPS (Let’s Encrypt)
+* Add custom domain (Route 53)
+* Add CI/CD with GitHub Actions
+* Containerize with Docker
+* Add monitoring (CloudWatch)
+* Add dbt transformations
+___
+
+# 👨‍💻 Author
+
+Dr. Miguel Rodriguez Saldana
+Doctor of Computer Science (Big Data Analytics)
+Data Engineer | Analytics Engineer | Platform Builder
+
+GitHub: https://github.com/miguelbda21
+---
