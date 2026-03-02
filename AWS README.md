@@ -265,7 +265,7 @@ http://<EC2-IP>/
 * Containerize with Docker
 * Add monitoring (CloudWatch)
 * Add dbt transformations
-___
+---
 
 # 👨‍💻 Author
 
