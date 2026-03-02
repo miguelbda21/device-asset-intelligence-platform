@@ -267,9 +267,8 @@ http://<EC2-IP>/
 * Add dbt transformations
 ---
 
-# 👨‍💻 Author
-
-Dr. Miguel Rodriguez Saldana
+## 👨‍💻 Author
+** Dr. Miguel Rodriguez Saldana **
 Doctor of Computer Science (Big Data Analytics)
 Data Engineer | Analytics Engineer | Platform Builder
 
