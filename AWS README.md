@@ -158,5 +158,7 @@ pip install -r requirements.txt
 ```
 ## 📥 Clone Repository
 ```bash
-
+git clone https://github.com/miguelbda21/device-asset-intelligence-platform.git
+cd device-asset-intelligence-platform
 ```
+
