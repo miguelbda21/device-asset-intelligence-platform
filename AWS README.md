@@ -268,9 +268,11 @@ http://<EC2-IP>/
 ---
 
 ## 👨‍💻 Author
-** Dr. Miguel Rodriguez Saldana **
-Doctor of Computer Science (Big Data Analytics)
-Data Engineer | Analytics Engineer | Platform Builder
 
-GitHub: https://github.com/miguelbda21
+**Dr. Miguel Rodriguez Saldana**  
+Doctor of Computer Science (Big Data Analytics)  
+Data Engineer | Analytics Engineer | Platform Builder  
+
+GitHub: [miguelbda21](https://github.com/miguelbda21)
+
 ---
