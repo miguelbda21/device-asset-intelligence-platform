@@ -1,11 +1,11 @@
 # 📦 Device Asset Intelligence Platform
 
-> Enterprise Data Engineering + FastAPI + AWS Deployment
+Enterprise Data Engineering + FastAPI + AWS Deployment
 ---
 
 # 🖥️ Overview
 
-> The Device Asset Intelligence Platform is an end-to-end data engineering solution that:
+The Device Asset Intelligence Platform is an end-to-end data engineering solution that:
 
 * Extracts asset data from S3
 
@@ -68,13 +68,13 @@ device-asset-intelligence-platform/
 ---
 
 # 🚀 AWS Setup Guide (Clean Deployment Checklist)
-### 1️⃣ Create AWS Account
+## 1️⃣ Create AWS Account
 
 * Enable MFA on root account
 
 * Do NOT use root for daily work
 
-### 2️⃣ Create IAM Admin User
+## 2️⃣ Create IAM Admin User
 
 IAM → Users → Create User
 
@@ -88,7 +88,7 @@ Configure locally:
 ```bash
 aws configure
 ```
-### 3️⃣ Create S3 Bucket
+## 3️⃣ Create S3 Bucket
 
 S3 → Create bucket
 
@@ -103,7 +103,7 @@ staging/
 warehouse/
 logs/
 ```
-### 4️⃣ Create RDS PostgreSQL
+## 4️⃣ Create RDS PostgreSQL
 
 RDS → Create database
 
@@ -121,7 +121,7 @@ Security group:
 
 * Allow port 5432 from YOUR IP only
 
-### 5️⃣ Launch EC2 Instance
+## 5️⃣ Launch EC2 Instance
 
 EC2 → Launch Instance
 
@@ -139,11 +139,11 @@ EC2 → Launch Instance
 
 Download key pair (.pem).
 
-## 🔐 SSH Into EC2
+### 🔐 SSH Into EC2
 ```bash
 ssh -i your-key.pem ec2-user@<EC2-Public-IP>
 ```
-## 🛠️ Install Dependencies
+### 🛠️ Install Dependencies
 ```bash
 sudo yum update -y
 sudo yum install git -y
@@ -156,9 +156,78 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
-## 📥 Clone Repository
+### 📥 Clone Repository
 ```bash
 git clone https://github.com/miguelbda21/device-asset-intelligence-platform.git
 cd device-asset-intelligence-platform
 ```
+### ▶ Test FastAPI Manually
+```bash
+uvicorn src.api.main:app --host 0.0.0.0 --port 8000
+```
+Test:
+```bash
+uvicorn src.api.main:app --host 0.0.0.0 --port 8000
+```
 
+### 🔁 Make API Persistent (systemd)
+
+Create service:
+```bash
+sudo nano /etc/systemd/system/asset-api.service
+```
+
+Paste:
+```bash
+[Unit]
+Description=FastAPI Device Asset Platform
+After=network.target
+
+[Service]
+User=ec2-user
+WorkingDirectory=/home/ec2-user/device-asset-intelligence-platform
+ExecStart=/home/ec2-user/venv/bin/uvicorn src.api.main:app --host 0.0.0.0 --port 8000
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
+Enable service:
+```bash
+sudo systemctl daemon-reload
+sudo systemctl start asset-api
+sudo systemctl enable asset-api
+```
+
+### 🌐 Configure Nginx Reverse Proxy
+
+Edit:
+```bash
+sudo nano /etc/nginx/nginx.conf
+```
+
+Add:
+```bash
+server {
+    listen 80;
+    server_name _;
+
+    location / {
+        proxy_pass http://127.0.0.1:8000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+}
+```
+
+Restart:
+```bash
+sudo systemctl restart nginx
+```
+
+Now access:
+```bash
+http://<EC2-IP>/
+```
+---
+# 🧪 API Endpoints
